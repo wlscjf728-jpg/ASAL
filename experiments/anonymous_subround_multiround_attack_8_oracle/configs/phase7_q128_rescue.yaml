@@ -1,0 +1,19 @@
+campaign:
+  workers: 6
+
+attack:
+  depth: 2
+  mode: differential
+  initial_query_count: 128
+
+solver:
+  first_timeout_ms: 0
+  second_timeout_ms: 0
+  diagnostic_timeout_ms: 1
+  sbox_encoding: uf_axiom
+
+adaptive_query:
+  max_adaptive_queries: 127
+  separability_timeout_ms: 0
+  query_domain: unrestricted
+  max_active_bytes: 16

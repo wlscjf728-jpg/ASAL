@@ -1,0 +1,22 @@
+# Attack 8 sequential validation configuration - Stage 8D (Fast Resolving).
+campaign:
+  seeds: 3
+
+attack:
+  depth: 2
+  mode: differential
+  initial_query_count: 32
+  fixed_query_ladder: [32, 64, 96, 128, 192, 255]
+
+solver:
+  first_timeout_ms: 60000        # 1 minute
+  second_timeout_ms: 120000      # 2 minutes
+  diagnostic_timeout_ms: 30000   # 30 seconds
+  sbox_encoding: uf_axiom
+
+adaptive_query:
+  synthesis_mode: fixed_pair
+  max_adaptive_queries: 96
+  separability_timeout_ms: 120000 # 2 minutes
+  query_domain: unrestricted
+  max_active_bytes: 16

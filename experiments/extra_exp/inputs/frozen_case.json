@@ -1,0 +1,27 @@
+{
+  "case_id": "late1_MC_9__seed2",
+  "depth": 2,
+  "expected_adaptive_classification": "full_key_unique",
+  "expected_fixed_classification": "finite_query_ambiguity",
+  "fixed_oracle_encryptions": 129,
+  "fixed_query_count": 128,
+  "historical_alternative_response": [
+    0,
+    0
+  ],
+  "historical_separator_hex": "f4000000004800d86000586000cb0010",
+  "historical_true_response": [
+    0,
+    1
+  ],
+  "mode": "differential",
+  "reference_plaintext_hex": "00000000000000000000000000000000",
+  "schema": "mc9-eda-frozen-case-v1",
+  "seed": 2,
+  "source_adaptive_json": "exp_res/04_adaptive_pair_rescue_campaigns/results/late_1bit_pair_rescue_runs/late1_MC_9__seed2__late1bit_pair_rescue.json",
+  "source_fixed_json": "exp_res/04_adaptive_pair_rescue_campaigns/results/late_1bit_fixed_q128_runs/late1_MC_9__seed2__late1bit_fixed_q128.json",
+  "tap": {
+    "bit_index": 9,
+    "stage": "MC"
+  }
+}

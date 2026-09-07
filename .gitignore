@@ -1,0 +1,48 @@
+# Python/cache/build output
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.venv/
+venv/
+*.egg-info/
+
+# Experiment runtime output (source snapshots remain tracked)
+experiments/**/logs/*
+experiments/**/results/**
+experiments/**/cases/**/csrc/
+experiments/**/cases/**/results/
+experiments/**/cases/**/simv*
+experiments/**/cases/**/verdi*
+experiments/**/cases/**/ucli.key
+experiments/**/inputs/hidden_key.evaluator.json
+experiments/**/hidden_key.evaluator.json
+
+# EDA-generated databases and reports
+*.ddc
+*.sdb
+*.mr
+*.pvl
+*.syn
+*.spf
+*.daidir/
+*.vpd
+*.fsdb
+*.vcd
+*.o
+*.so
+*.a
+
+# Local/private material
+private/
+secrets/
+.env
+.env.*
+
+# Generated reproducibility outputs
+artifacts/
+run-output/
+
+
+experiments/**/inputs/evaluator_keys.csv

@@ -1,0 +1,34 @@
+# ASAL AES-128 master-key diversity validation.
+# The evaluator key is never serialized into the sanitized solver document.
+campaign:
+  workers: 32
+  key_generation_seed: 20260903
+  query_seed: 417
+  key_count: 20
+  tap_count: 4
+
+attack:
+  depth: 2
+  mode: differential
+  fixed_query_ladder: [32, 64, 96, 128, 192, 255]
+
+solver:
+  first_timeout_ms: 0
+  second_timeout_ms: 0
+  diagnostic_timeout_ms: 0
+  separability_timeout_ms: 0
+  sbox_encoding: uf_axiom
+
+query_generation:
+  query_domain: unrestricted
+  max_active_bytes: 16
+
+paths:
+  tap_manifest: configs/representative_post_mc_taps.csv
+  evaluator_keys: inputs/evaluator_keys.csv
+  candidate_map: reference/candidate_map_extended512.csv
+  raw_results: results/raw_runs.jsonl
+  checkpoints: results/checkpoints.jsonl
+  errors: logs/campaign_errors.jsonl
+  summary: results/summary.json
+  report: reports/KEY_DIVERSITY_VALIDATION_REPORT.md

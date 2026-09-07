@@ -1,0 +1,23 @@
+# Phase 8 proof campaign: unlimited solver time, q32 -> q255 adaptive queries.
+campaign:
+  seeds: 3
+  workers: 64
+
+attack:
+  depth: 2
+  mode: differential
+  initial_query_count: 32
+
+solver:
+  # Z3 timeout=0 means no timeout.
+  first_timeout_ms: 0
+  second_timeout_ms: 0
+  # Diagnostics do not affect the SAT/UNSAT attack verdict.
+  diagnostic_timeout_ms: 1
+  sbox_encoding: uf_axiom
+
+adaptive_query:
+  max_adaptive_queries: 223
+  separability_timeout_ms: 0
+  query_domain: unrestricted
+  max_active_bytes: 16

@@ -1,0 +1,64 @@
+In mode: Internal_scan...
+  Design has scan chains in this mode
+  Design is scan routed
+  Post-DFT DRC enabled
+
+Information: Starting test design rule checking. (TEST-222)
+  Loading test protocol
+  ...basic checks...
+  ...basic sequential cell checks...
+  ...checking vector rules...
+  ...checking clock rules...
+  ...checking scan chain rules...
+  ...checking scan compression rules...
+  ...checking X-state rules...
+  ...checking tristate rules...
+  ...extracting scan details...
+
+-----------------------------------------------------------------
+Begin Clock violations...
+
+ Warning: Clock rst used as data is different than capture clock clk for inputs CP/D of stable DFF (u_mor1kx/bus_gen.ibus_bridge/b3_read_bursting.bursting_reg). (C26-1)
+Information: There are 492 other cells with the same violation. (TEST-171)
+
+Clock violations completed...
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+Begin Scan chain violations...
+
+ Warning: Nonscan DFF u_mor1kx/bus_gen.ibus_bridge/b3_read_bursting.bursting_reg disturbed during time 45 of shift procedure. (S19-1)
+Information: There are 3100 other cells with the same violation. (TEST-171)
+
+Scan chain violations completed...
+-----------------------------------------------------------------
+
+-----------------------------------------------------------------
+  DRC Report
+
+  Total violations: 3594
+
+-----------------------------------------------------------------
+
+493 CLOCK VIOLATIONS
+   493 Clock as data different from capture clock for stable cell violations (C26)
+
+3101 SCAN CHAIN VIOLATIONS
+  3101 Nonscan cell disturb violations (S19)
+
+
+Warning: Violations occurred during test design rule checking. (TEST-124)
+
+-----------------------------------------------------------------
+  Sequential Cell Report
+
+  0 out of 4157 sequential cells have violations
+
+-----------------------------------------------------------------
+
+SEQUENTIAL CELLS WITHOUT VIOLATIONS
+      *3133 cells are valid non-scan cells
+      *1024 cells are valid scan cells
+
+Information: Test design rule checking completed. (TEST-123)
+1

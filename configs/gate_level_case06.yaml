@@ -1,0 +1,10 @@
+schema: asal-gate-case-status-v1
+campaign_id: gate_level_topology_8
+case_id: case_06_mc082
+canonical_status: complete
+final_query: Q133
+terminal_transition: SAT_to_UNSAT
+key_match: true
+provenance: user_confirmed
+artifact_verification: pending_q133_artifact_or_revalidation
+observed_snapshot_status: stopped_at_q132

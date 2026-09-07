@@ -1,0 +1,5 @@
+tap_id,candidate_id,stage,bit_index,byte_index,row,column,bit_in_byte,selection_rank,selection_rule,selection_metric_available
+mc_q0,MC_0,MC,0,0,0,0,0,0,structural_bit_index_quartile_fallback_due_to_missing_all128_nuniq_artifact,false
+mc_q1,MC_42,MC,42,5,1,1,2,42,structural_bit_index_quartile_fallback_due_to_missing_all128_nuniq_artifact,false
+mc_q2,MC_85,MC,85,10,2,2,5,85,structural_bit_index_quartile_fallback_due_to_missing_all128_nuniq_artifact,false
+mc_q3,MC_127,MC,127,15,3,3,7,127,structural_bit_index_quartile_fallback_due_to_missing_all128_nuniq_artifact,false

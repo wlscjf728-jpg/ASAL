@@ -1,0 +1,12 @@
+{
+  "expected_historical_alternative_response": [
+    0,
+    0
+  ],
+  "expected_true_response": [
+    0,
+    1
+  ],
+  "plaintext_hex": "f4000000004800d86000586000cb0010",
+  "schema": "mc9-known-separator-control-v1"
+}

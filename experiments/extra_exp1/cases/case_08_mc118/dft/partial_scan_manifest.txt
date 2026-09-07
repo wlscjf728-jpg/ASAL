@@ -1,0 +1,8 @@
+# role|source selector used by the evaluator DFT script
+target_mc118|aes_core/MC_REG[118]
+# 127 state-register decoys are selected by the DFT script from STATE_REG bits.
+aes_decoy|aes_core/STATE_REG[0:126]
+# 120 independent data/control decoys.
+data_control_decoy|decoy_bank/data_control_decoy_reg[0:119]
+# 8 independent status/control decoys.
+status_control_decoy|decoy_bank/status_control_decoy_reg[0:7]

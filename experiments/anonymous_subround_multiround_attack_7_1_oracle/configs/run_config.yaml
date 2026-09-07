@@ -1,0 +1,9 @@
+# Concurrency and Z3 Solver Configurations for Attack 7_1 gap sweep
+
+max_workers: 94
+
+solver:
+  first_timeout_ms: 60000
+  second_timeout_ms: 300000
+  diagnostic_timeout_ms: 30000
+  sbox_encoding: "uf_axiom"

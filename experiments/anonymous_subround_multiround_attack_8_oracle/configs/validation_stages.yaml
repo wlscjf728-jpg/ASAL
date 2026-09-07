@@ -1,0 +1,21 @@
+# Run stages in this order. Commands are documented in README.md.
+stages:
+  - id: 8A
+    purpose: Correct the low-budget ambiguity baseline with a common fixed query ladder.
+    cases: configs/selected_2bit_proven_ambiguous.csv
+    strategy: fixed_nested
+  - id: 8B
+    purpose: Validate pairwise solver-generated queries on the same fixed ambiguous taps.
+    cases: configs/selected_2bit_proven_ambiguous.csv
+    strategy: adaptive_pairwise
+    query_domain: one_byte
+  - id: 8C
+    purpose: Expand adaptive plaintext freedom after 8B is validated.
+    cases: configs/selected_2bit_proven_ambiguous.csv
+    strategy: adaptive_pairwise
+    query_domain: unrestricted
+  - id: 8D
+    purpose: Repeat validated methods for inherited 3-bit and 4-bit hard cases.
+    cases:
+      - configs/selected_3bit_proven_ambiguous.csv
+      - configs/selected_4bit_proven_ambiguous.csv

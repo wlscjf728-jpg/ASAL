@@ -1,0 +1,34 @@
+{
+  "revision": 2,
+  "scope": "AES internal sites under u_aes_peripheral, excluding output interface and all AES FF Q/QN sites",
+  "historical_422_used": false,
+  "direct_site_count": 1600,
+  "direct_exclusion": {
+    "direct_site_count": 1600,
+    "stuck_lines": 3200,
+    "transition_lines": 3200
+  },
+  "stuck_raw_line_count": 73022,
+  "transition_raw_line_count": 73022,
+  "stuck_pre_alignment_site_count": 36511,
+  "transition_pre_alignment_site_count": 36511,
+  "common_aligned_site_count": 36511,
+  "stuck_raw_site_count": 36511,
+  "transition_raw_site_count": 36511,
+  "stuck_status_counts": {
+    "AN": 40060,
+    "--": 32961,
+    "UR": 1
+  },
+  "transition_status_counts": {
+    "AN": 54309,
+    "--": 18712,
+    "UR": 1
+  },
+  "stuck_source_sha256": "ecd1dd2652a8b19e4258284ff45f5f86d46b7c44846b2dbd2ccb7403954a7acd",
+  "transition_source_sha256": "a2f47b1c9b5ec77de808d4b679024f7b3bc56d204ecb97c6ed9b453d05e2b921",
+  "collapsed_source_count": 0,
+  "collapsed_status": "UNRESOLVED_NO_AES_INTERNAL_NC_IN_REFERENCE",
+  "reference_source": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/RTL1_DFT_RESTUDY/config/canonical_faults_all.list",
+  "reference_source_sha256": "bd4fb7fd6ac6d53773761a0d9e02d39b427030fafbcbd15959c61542eadb10fd"
+}

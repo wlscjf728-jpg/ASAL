@@ -1,0 +1,30 @@
+{
+  "schema": "python-defense-capability-matrix-v1",
+  "case_id": "frozen_mc_case",
+  "public": {
+    "scan_cells": 256,
+    "capture_schedules": [1, 2, 3],
+    "phase0_query_count": 65,
+    "hypothesis_count": 32,
+    "fixed_query_count": 128,
+    "depth": 2,
+    "mode": "differential"
+  },
+  "conditions": [
+    {"condition_id": "D0", "family": "baseline", "description": "Unprotected scan", "transform": "identity", "authorization": "allow", "secret_id": null, "adaptive_allowed": true, "expected_boundary": "none"},
+    {"condition_id": "D1", "family": "sensitive_state", "description": "Key and conventional round state isolated; post-MC remains visible", "transform": "state_only", "authorization": "allow", "secret_id": null, "adaptive_allowed": true, "expected_boundary": "post_mc_exposed"},
+    {"condition_id": "D1b", "family": "sensitive_state", "description": "Isolation extended through the post-MC boundary", "transform": "clear_post_mc", "authorization": "allow", "secret_id": null, "adaptive_allowed": true, "expected_boundary": "post_mc_removed"},
+    {"condition_id": "D2", "family": "mode_transition", "description": "Capture-to-scan transition clears the captured state", "transform": "reset_capture", "authorization": "allow", "secret_id": null, "adaptive_allowed": true, "expected_boundary": "capture_removed"},
+    {"condition_id": "D3a", "family": "response_protection", "description": "DefScan-like mask on conventional round response only", "transform": "round_mask_only", "authorization": "allow", "secret_id": "round_mask", "adaptive_allowed": true, "expected_boundary": "post_mc_exposed"},
+    {"condition_id": "D3b", "family": "response_protection", "description": "DefScan-like mask extended through post-MC response", "transform": "round_and_mc_mask", "authorization": "allow", "secret_id": "round_mc_mask", "adaptive_allowed": true, "expected_boundary": "post_mc_removed"},
+    {"condition_id": "D4", "family": "input_protection", "description": "Chosen-input probes restricted to an allowlist", "transform": "identity", "authorization": "restrict_adaptive", "secret_id": null, "adaptive_allowed": false, "expected_boundary": "query_policy"},
+    {"condition_id": "D5a", "family": "scan_transformation", "description": "Fixed scan permutation", "transform": "static_permutation", "authorization": "allow", "secret_id": "static_permutation", "adaptive_allowed": true, "expected_boundary": "reidentifiable"},
+    {"condition_id": "D5b", "family": "scan_transformation", "description": "Fixed scan inversion", "transform": "fixed_inversion", "authorization": "allow", "secret_id": "fixed_inversion", "adaptive_allowed": true, "expected_boundary": "differential_cancellation"},
+    {"condition_id": "D5c", "family": "scan_transformation", "description": "Epoch-wise scan remapping", "transform": "epoch_permutation", "authorization": "allow", "secret_id": "epoch_permutation", "adaptive_allowed": true, "expected_boundary": "identity_unstable"},
+    {"condition_id": "D5d", "family": "scan_transformation", "description": "Per-probe scan remapping", "transform": "probe_permutation", "authorization": "allow", "secret_id": "probe_permutation", "adaptive_allowed": true, "expected_boundary": "identity_unstable"},
+    {"condition_id": "D6_valid", "family": "authorization", "description": "DAF/SSA-style valid authorization", "transform": "identity", "authorization": "allow", "secret_id": "authorization_token", "adaptive_allowed": true, "expected_boundary": "none"},
+    {"condition_id": "D6_invalid", "family": "authorization", "description": "DAF/SSA-style invalid authorization", "transform": "identity", "authorization": "deny_access", "secret_id": "authorization_token", "adaptive_allowed": false, "expected_boundary": "access_policy"},
+    {"condition_id": "D7", "family": "transaction_authorization", "description": "PASS-style fixed-pattern authorization", "transform": "identity", "authorization": "restrict_adaptive", "secret_id": "pattern_allowlist", "adaptive_allowed": false, "expected_boundary": "adaptive_policy"},
+    {"condition_id": "D8_xorhash", "family": "response_hiding", "description": "Keyed response-hiding representative", "transform": "response_hide", "authorization": "allow", "secret_id": "response_hiding_secret", "adaptive_allowed": true, "expected_boundary": "attribution"}
+  ]
+}

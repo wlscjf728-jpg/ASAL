@@ -1,0 +1,17 @@
+{
+  "case_id": "topo_MC_9",
+  "column": "C0",
+  "row": 1,
+  "byte": 1,
+  "mult": "x3",
+  "depth": 2,
+  "mode": "differential",
+  "fixed_query_count": 128,
+  "fixed_oracle_encryptions": 129,
+  "reference_plaintext_hex": "00000000000000000000000000000000",
+  "schema": "topo-eda-frozen-case-v1",
+  "tap": {
+    "stage": "MC",
+    "bit_index": 9
+  }
+}

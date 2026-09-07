@@ -1,0 +1,9 @@
+# Concurrency and Z3 Solver Configurations for Attack 7
+
+max_workers: 64
+
+solver:
+  first_timeout_ms: 60000        # 60s timeout for first solve
+  second_timeout_ms: 300000       # 300s timeout for alternative key solve
+  diagnostic_timeout_ms: 30000   # 30s timeout for byte diagnostics
+  sbox_encoding: "uf_axiom"       # S-box Z3 encoding (uf_axiom is fastest)

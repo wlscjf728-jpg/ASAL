@@ -1,0 +1,11 @@
+n_scan_ff: 256
+target_mc_count: 1
+ark_decoys: 24
+round_register_decoys: 24
+sb_decoys: 24
+sr_decoys: 16
+positive_trials: 32
+negative_trials: 8
+seed_start: 7000
+result_dir: results/discovery_trials
+report: reports/MC_LEAKAGE_CHANNEL_DISCOVERY_REPORT.md

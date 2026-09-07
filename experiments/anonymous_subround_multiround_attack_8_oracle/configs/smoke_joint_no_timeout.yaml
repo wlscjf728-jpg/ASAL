@@ -1,0 +1,23 @@
+# Resolving two Attack 8 separability UNKNOWN cases.
+# 24 hours is used as a practical no-timeout ceiling for Z3's integer timeout API.
+campaign:
+  seeds: 1
+
+attack:
+  depth: 2
+  mode: differential
+  initial_query_count: 32
+  fixed_query_ladder: [32, 64, 96, 128, 192, 255]
+
+solver:
+  first_timeout_ms: 86400000
+  second_timeout_ms: 86400000
+  diagnostic_timeout_ms: 30000
+  sbox_encoding: uf_axiom
+
+adaptive_query:
+  synthesis_mode: joint
+  max_adaptive_queries: 8
+  separability_timeout_ms: 86400000
+  query_domain: one_byte
+  max_active_bytes: 1

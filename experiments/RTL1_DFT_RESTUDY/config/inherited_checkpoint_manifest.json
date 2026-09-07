@@ -1,0 +1,43 @@
+{
+  "design": "mor1kx_aes_soc",
+  "aes_rounds": 1,
+  "checkpoint": {
+    "ddc_sha256": "2eac94224ca109e3b2f65a4537b00d1f73aa6113393225c9712729cb123a2a72",
+    "verilog_sha256": "d3989fbeb0353ca7b35dbbd1cb48a74fbdb6b4ad7f4f8cf761205cda9b27870e",
+    "sdc_sha256": "41469f8e2270481f46dfd5c19d53177e34e22720fc4af324e15c9b70d8a7e8cb"
+  },
+  "register_inventory_count": 4157,
+  "bank_counts": {
+    "IARK_REG": 128,
+    "SB_REG": 128,
+    "SR_REG": 128,
+    "MC_REG": 128
+  },
+  "common_count": 1280,
+  "common_host_count": 896,
+  "variable_count": 128,
+  "total_scan_budget": 1408,
+  "random_pool_count": 144,
+  "random_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "random_exclusions": [
+    "IARK_REG",
+    "SB_REG",
+    "SR_REG",
+    "MC_REG",
+    "inferred memory registers",
+    "scan/lockup named cells",
+    "reset-fanin DFT hazard registers",
+    "unmapped checkpoint sequential cells"
+  ]
+}

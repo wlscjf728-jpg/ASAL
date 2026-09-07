@@ -1,0 +1,6 @@
+vcs=/srscl/tools/synopsys/VCS/vcs/R-2020.12-SP1/linux64/bin/vcs
+version=R-2020.12-SP1 (compile log and VCS banner)
+verdi=/srscl/tools/synopsys/verdi_202012/verdi/R-2020.12-SP1/bin/verdi
+version=R-2020.12-SP1 (FSDB reader and GUI reopen logs)
+dc_shell=/srscl/tools/synopsys/design_compiler_202106/syn/S-2021.06-SP4/bin/dc_shell
+version=S-2021.06-SP4 (functional_prescan.rpt, dc.log, dft.log)

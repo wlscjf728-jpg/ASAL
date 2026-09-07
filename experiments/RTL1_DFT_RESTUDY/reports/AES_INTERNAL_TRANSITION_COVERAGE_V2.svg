@@ -1,0 +1,61 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1200" height="700" viewBox="0 0 1200 700">
+<rect width="100%" height="100%" fill="white"/>
+<text x="600" y="34" text-anchor="middle" font-family="sans-serif" font-size="22" font-weight="bold">AES-internal transition coverage by scan placement</text>
+<line x1="100" y1="590.0" x2="1160" y2="590.0" stroke="#e5e7eb"/>
+<text x="88" y="595.0" text-anchor="end" font-family="sans-serif" font-size="13">0%</text>
+<line x1="100" y1="562.7" x2="1160" y2="562.7" stroke="#e5e7eb"/>
+<text x="88" y="567.7" text-anchor="end" font-family="sans-serif" font-size="13">20%</text>
+<line x1="100" y1="535.4" x2="1160" y2="535.4" stroke="#e5e7eb"/>
+<text x="88" y="540.4" text-anchor="end" font-family="sans-serif" font-size="13">40%</text>
+<line x1="100" y1="508.1" x2="1160" y2="508.1" stroke="#e5e7eb"/>
+<text x="88" y="513.1" text-anchor="end" font-family="sans-serif" font-size="13">60%</text>
+<line x1="100" y1="480.8" x2="1160" y2="480.8" stroke="#e5e7eb"/>
+<text x="88" y="485.8" text-anchor="end" font-family="sans-serif" font-size="13">80%</text>
+<line x1="100" y1="453.5" x2="1160" y2="453.5" stroke="#e5e7eb"/>
+<text x="88" y="458.5" text-anchor="end" font-family="sans-serif" font-size="13">100%</text>
+<polyline fill="none" stroke="#64748b" stroke-width="2" points="100.0,585.6 155.8,585.5 211.6,585.6 267.4,585.3 323.2,585.4 378.9,585.3 434.7,585.3 490.5,585.3 546.3,585.3 602.1,585.3 657.9,585.4 713.7,585.4 769.5,585.4 825.3,585.4 881.1,585.6 936.8,585.5 992.6,585.4 1048.4,585.4 1104.2,585.3 1160.0,585.6"/>
+<circle cx="100.0" cy="585.6" r="7" fill="#2563eb" stroke="#111827" stroke-width="1"/>
+<text x="100.0" y="615" text-anchor="middle" transform="rotate(45 100.0 615)" font-family="sans-serif" font-size="11">IARK</text>
+<circle cx="155.8" cy="585.5" r="7" fill="#16a34a" stroke="#111827" stroke-width="1"/>
+<text x="155.8" y="615" text-anchor="middle" transform="rotate(45 155.8 615)" font-family="sans-serif" font-size="11">SB</text>
+<circle cx="211.6" cy="585.6" r="7" fill="#d97706" stroke="#111827" stroke-width="1"/>
+<text x="211.6" y="615" text-anchor="middle" transform="rotate(45 211.6 615)" font-family="sans-serif" font-size="11">SR</text>
+<circle cx="267.4" cy="585.3" r="7" fill="#dc2626" stroke="#111827" stroke-width="1"/>
+<text x="267.4" y="615" text-anchor="middle" transform="rotate(45 267.4 615)" font-family="sans-serif" font-size="11">MC</text>
+<circle cx="323.2" cy="585.4" r="7" fill="#6b7280" stroke="#111827" stroke-width="1"/>
+<text x="323.2" y="615" text-anchor="middle" transform="rotate(45 323.2 615)" font-family="sans-serif" font-size="11">RANDOM_STAGE_seed01</text>
+<circle cx="378.9" cy="585.3" r="7" fill="#6b7280" stroke="#111827" stroke-width="1"/>
+<text x="378.9" y="615" text-anchor="middle" transform="rotate(45 378.9 615)" font-family="sans-serif" font-size="11">RANDOM_STAGE_seed02</text>
+<circle cx="434.7" cy="585.3" r="7" fill="#6b7280" stroke="#111827" stroke-width="1"/>
+<text x="434.7" y="615" text-anchor="middle" transform="rotate(45 434.7 615)" font-family="sans-serif" font-size="11">RANDOM_STAGE_seed03</text>
+<circle cx="490.5" cy="585.3" r="7" fill="#6b7280" stroke="#111827" stroke-width="1"/>
+<text x="490.5" y="615" text-anchor="middle" transform="rotate(45 490.5 615)" font-family="sans-serif" font-size="11">RANDOM_STAGE_seed04</text>
+<circle cx="546.3" cy="585.3" r="7" fill="#6b7280" stroke="#111827" stroke-width="1"/>
+<text x="546.3" y="615" text-anchor="middle" transform="rotate(45 546.3 615)" font-family="sans-serif" font-size="11">RANDOM_STAGE_seed05</text>
+<circle cx="602.1" cy="585.3" r="7" fill="#6b7280" stroke="#111827" stroke-width="1"/>
+<text x="602.1" y="615" text-anchor="middle" transform="rotate(45 602.1 615)" font-family="sans-serif" font-size="11">RANDOM_STAGE_seed06</text>
+<circle cx="657.9" cy="585.4" r="7" fill="#6b7280" stroke="#111827" stroke-width="1"/>
+<text x="657.9" y="615" text-anchor="middle" transform="rotate(45 657.9 615)" font-family="sans-serif" font-size="11">RANDOM_STAGE_seed07</text>
+<circle cx="713.7" cy="585.4" r="7" fill="#6b7280" stroke="#111827" stroke-width="1"/>
+<text x="713.7" y="615" text-anchor="middle" transform="rotate(45 713.7 615)" font-family="sans-serif" font-size="11">RANDOM_STAGE_seed08</text>
+<circle cx="769.5" cy="585.4" r="7" fill="#6b7280" stroke="#111827" stroke-width="1"/>
+<text x="769.5" y="615" text-anchor="middle" transform="rotate(45 769.5 615)" font-family="sans-serif" font-size="11">RANDOM_STAGE_seed09</text>
+<circle cx="825.3" cy="585.4" r="7" fill="#6b7280" stroke="#111827" stroke-width="1"/>
+<text x="825.3" y="615" text-anchor="middle" transform="rotate(45 825.3 615)" font-family="sans-serif" font-size="11">RANDOM_STAGE_seed10</text>
+<circle cx="881.1" cy="585.6" r="7" fill="#0891b2" stroke="#111827" stroke-width="1"/>
+<text x="881.1" y="615" text-anchor="middle" transform="rotate(45 881.1 615)" font-family="sans-serif" font-size="11">MIX_MC_000</text>
+<circle cx="936.8" cy="585.5" r="7" fill="#0891b2" stroke="#111827" stroke-width="1"/>
+<text x="936.8" y="615" text-anchor="middle" transform="rotate(45 936.8 615)" font-family="sans-serif" font-size="11">MIX_MC_032</text>
+<circle cx="992.6" cy="585.4" r="7" fill="#0891b2" stroke="#111827" stroke-width="1"/>
+<text x="992.6" y="615" text-anchor="middle" transform="rotate(45 992.6 615)" font-family="sans-serif" font-size="11">MIX_MC_064</text>
+<circle cx="1048.4" cy="585.4" r="7" fill="#0891b2" stroke="#111827" stroke-width="1"/>
+<text x="1048.4" y="615" text-anchor="middle" transform="rotate(45 1048.4 615)" font-family="sans-serif" font-size="11">MIX_MC_096</text>
+<circle cx="1104.2" cy="585.3" r="7" fill="#0891b2" stroke="#111827" stroke-width="1"/>
+<text x="1104.2" y="615" text-anchor="middle" transform="rotate(45 1104.2 615)" font-family="sans-serif" font-size="11">MIX_MC_128</text>
+<circle cx="1160.0" cy="585.6" r="7" fill="#7c3aed" stroke="#111827" stroke-width="1"/>
+<text x="1160.0" y="615" text-anchor="middle" transform="rotate(45 1160.0 615)" font-family="sans-serif" font-size="11">AUTO_STAGE</text>
+<line x1="100" y1="590" x2="1160" y2="590" stroke="#111827"/>
+<line x1="100" y1="75" x2="100" y2="590" stroke="#111827"/>
+<text x="600" y="680" text-anchor="middle" font-family="sans-serif" font-size="15">case</text>
+<text x="24" y="350" text-anchor="middle" transform="rotate(-90 24 350)" font-family="sans-serif" font-size="15">test coverage</text>
+</svg>

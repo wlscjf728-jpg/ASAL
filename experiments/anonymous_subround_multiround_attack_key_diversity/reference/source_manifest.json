@@ -1,0 +1,25 @@
+{
+  "schema": "asal-key-diversity-source-manifest-v1",
+  "copied_from": {
+    "experiment": "anonymous_subround_multiround_attack_8_oracle",
+    "candidate_map": "reference/candidate_map_extended512.csv",
+    "aes_model": "scripts/aes_ref.py",
+    "z3_model": "scripts/z3_aes.py",
+    "oracle": "scripts/oracle.py",
+    "solver": "scripts/solve_known_mapping.py",
+    "adaptive": "scripts/adaptive_query_attack.py",
+    "scoring": "scripts/late1bit_scoring.py"
+  },
+  "input_audit": {
+    "all_128_mc_nuniq_artifact_found": false,
+    "reason": "The workspace contains the 128-entry MC candidate map but no per-position earliest SAT-to-UNSAT convergence artifact covering all 128 MC positions.",
+    "selection_fallback": "sort all 128 MC entries by bit_index and select ranks 0, 42, 85, 127",
+    "manual_result_based_cherry_picking": false
+  },
+  "source_folders_not_modified": [
+    "anonymous_subround_multiround_attack_8_oracle",
+    "anonymous_subround_multiround_attack_7_oracle",
+    "anonymous_subround_multiround_attack_7_1_oracle",
+    "extra_exp"
+  ]
+}

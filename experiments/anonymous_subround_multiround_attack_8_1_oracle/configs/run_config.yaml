@@ -1,0 +1,27 @@
+# Attack 8 sequential validation configuration.
+# The runner is intentionally serial; parallel campaign orchestration is left to the execution agent.
+
+campaign:
+  seeds: 3
+
+attack:
+  depth: 2
+  mode: differential
+  initial_query_count: 32
+  # Ambiguity is terminal only after the last fixed budget.
+  fixed_query_ladder: [32, 64, 96, 128, 192, 255]
+
+solver:
+  first_timeout_ms: 120000
+  second_timeout_ms: 600000
+  diagnostic_timeout_ms: 30000
+  sbox_encoding: uf_axiom
+
+adaptive_query:
+  synthesis_mode: fixed_pair
+  # q32 plus 96 adaptive queries gives a first q128-equivalent budget.
+  # Increase to 223 for a q255-equivalent adaptive campaign.
+  max_adaptive_queries: 96
+  separability_timeout_ms: 600000
+  query_domain: one_byte
+  max_active_bytes: 1

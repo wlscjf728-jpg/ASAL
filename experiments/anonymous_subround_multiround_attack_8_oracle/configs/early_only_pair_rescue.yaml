@@ -1,0 +1,22 @@
+campaign:
+  workers: 32
+  expected_tasks: 622
+attack:
+  depth: 2
+  mode: differential
+solver:
+  first_timeout_ms: 0
+  second_timeout_ms: 0
+  diagnostic_timeout_ms: 0
+  separability_timeout_ms: 0
+  sbox_encoding: uf_axiom
+query_generation:
+  pair_candidates: 4
+  query_domain: unrestricted
+  max_active_bytes: 16
+paths:
+  manifest: configs/early_only_2_3bit_ambiguity_runs.csv
+  checkpoint_dir: results/early_only_pair_rescue_checkpoints
+  result_dir: results/early_only_pair_rescue_runs
+  summary: results/early_only_pair_rescue_summary.jsonl
+  errors: logs/early_only_pair_rescue_errors.jsonl

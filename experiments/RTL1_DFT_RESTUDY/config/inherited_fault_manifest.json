@@ -1,0 +1,9 @@
+{
+  "functional_checkpoint_ddc_sha256": "2eac94224ca109e3b2f65a4537b00d1f73aa6113393225c9712729cb123a2a72",
+  "raw_fault_site_count": 210378,
+  "canonical_representative_count": 422,
+  "selection": "TetraMAX representative records whose second field is NC",
+  "scan_only_faults_included": false,
+  "post_dft_internal_collapsed_sites_included": false,
+  "note": "The canonical list is shared by every DFT case. Representative names are functional nets after TetraMAX collapse; AES interface representatives may appear as top-level aes_result_o/aes_done_o rather than internal hierarchy names."
+}

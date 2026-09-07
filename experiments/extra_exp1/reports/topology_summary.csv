@@ -1,0 +1,9 @@
+Case,Target Bit,Column,Row,Multiplier,Status,Mode,Slot,N_total,N_aes,N_pre,N_mc,H_init,H_surv,Surv_H,Q_fixed,Q_final,Classification,Key_Match,Elapsed_sec,Elapsed_hours
+case_01_mc009,9,C0,1,"01 (x1)",COMPLETE,"2차 적응형 (분리 2회)",255,256,207,144,1,32,1,h09,128,131,full_key_unique,True,6143.4,1.71
+case_02_mc018,18,C0,2,"01 (x1)",COMPLETE,"1차 즉시 고유성",255,256,207,144,1,32,1,h18,128,129,full_key_unique,True,5120.4,1.42
+case_03_mc036,36,C1,0,"02 (x2)",COMPLETE,"1차 즉시 고유성",255,256,207,144,1,32,1,h04,128,129,full_key_unique,True,20983.6,5.83
+case_04_mc054,54,C1,2,"01 (x1)",COMPLETE,"1차 즉시 고유성",255,256,207,144,1,32,1,h22,128,129,full_key_unique,True,15050.2,4.18
+case_05_mc064,64,C2,0,"02 (x2)",COMPLETE,"2차 적응형 (분리 2회)",255,256,207,144,1,32,1,h00,128,131,full_key_unique,True,17460.5,4.85
+case_06_mc082,82,C2,2,"01 (x1)",STOPPED_EARLY,"2차 적응형 진행 중 중단",255,256,207,144,1,32,1,h18,128,132 (중단),attribution_verified,N/A (중단),0.0,0.00
+case_07_mc100,100,C3,0,"02 (x2)",COMPLETE,"1차 즉시 고유성",255,256,207,144,1,32,1,h04,128,129,full_key_unique,True,4382.4,1.22
+case_08_mc118,118,C3,2,"01 (x1)",COMPLETE,"1차 즉시 고유성",255,256,207,144,1,32,1,h22,128,129,full_key_unique,True,9009.5,2.50

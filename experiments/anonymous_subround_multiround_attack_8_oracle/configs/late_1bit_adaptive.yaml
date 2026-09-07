@@ -1,0 +1,27 @@
+campaign:
+  workers: 32
+  seeds: [0, 1, 2]
+attack:
+  depth: 2
+  mode: differential
+  initial_query_count: 64
+  max_adaptive_queries: null
+solver:
+  first_timeout_ms: 0
+  second_timeout_ms: 0
+  diagnostic_timeout_ms: 1
+  separability_timeout_ms: 0
+  sbox_encoding: uf_axiom
+candidate_pool:
+  size: 16
+query_generation:
+  pair_count: 12
+  models_per_pair: 4
+  query_domain: unrestricted
+  max_active_bytes: 16
+paths:
+  manifest: configs/late_1bit_positions.csv
+  checkpoint_dir: results/late_1bit_checkpoints
+  result_dir: results/late_1bit_runs
+  summary: results/late_1bit_summary.jsonl
+  errors: logs/late_1bit_errors.jsonl

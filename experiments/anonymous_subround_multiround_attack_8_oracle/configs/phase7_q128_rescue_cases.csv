@@ -1,0 +1,7 @@
+attack8_case_id,source_phase,source_case_id,tap_count,cand_a,cand_b,cand_c,cand_d,seed,source_query_count
+p7_q128_2b_SB_10__MC_16,7,SB_10__MC_16,2,SB_10,MC_16,,,0,128
+p7_q128_2b_SB_13__MC_14,7,SB_13__MC_14,2,SB_13,MC_14,,,0,128
+p7_q128_2b_SB_17__ARK_92,7,SB_17__ARK_92,2,SB_17,ARK_92,,,2,128
+p7_q128_2b_SB_37__MC_78,7,SB_37__MC_78,2,SB_37,MC_78,,,2,128
+p7_q128_2b_SB_5__MC_75,7,SB_5__MC_75,2,SB_5,MC_75,,,2,128
+p7_q128_2b_SR_111__MC_6,7,SR_111__MC_6,2,SR_111,MC_6,,,1,128

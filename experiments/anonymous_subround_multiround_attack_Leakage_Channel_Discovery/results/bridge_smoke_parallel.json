@@ -1,0 +1,186 @@
+{
+  "negative": [
+    {
+      "cohort": "negative",
+      "false_positive": false,
+      "selected_slot": null,
+      "support_consistent_candidate_count": 0,
+      "terminal": "no_channel_selected",
+      "trial_id": "decoy-17000"
+    }
+  ],
+  "positive": [
+    {
+      "attacker_function_hypotheses_at_final_first_model": [
+        "MC_C2_BYTE8_BIT0"
+      ],
+      "attacker_key_unique": false,
+      "cohort": "positive",
+      "discovered_column": 2,
+      "hypothesis_count": 32,
+      "known_function_unique": false,
+      "selected_slot": 101,
+      "steps": [
+        {
+          "attacker_first_matching_hypotheses": [
+            "MC_C2_BYTE8_BIT0"
+          ],
+          "attacker_first_status": "sat",
+          "attacker_hypothesis_union": {
+            "classification": "ambiguity"
+          },
+          "attacker_second_matching_hypotheses": [
+            "MC_C2_BYTE8_BIT0"
+          ],
+          "attacker_second_status": "sat",
+          "known_function": {
+            "classification": "ambiguity",
+            "first": {
+              "candidate_key": "b'\\x08\\xcc\\x0b\\x00\\x00\\x00s\\x00\\x00\\xc8)\\xa0j\\xa3\\xe9\\x91'",
+              "candidate_key_sha256": "1986e0e4fad1c3e18c288be8038a44ecfd5b16b3f55e3c49d992bef8a0614fa4",
+              "elapsed_seconds": 0.28153624944388866,
+              "hypothesis_count": 1,
+              "hypothesis_id": "MC_C2_BYTE10_BIT2",
+              "matching_hypotheses": [
+                "MC_C2_BYTE10_BIT2"
+              ],
+              "sat_branch_count": 1,
+              "status": "sat",
+              "union_status": "sat"
+            },
+            "second": {
+              "candidate_key": "b'PTN\\x00\\x00\\x1aw\\x00\\x00D)\\xd82\\xc7\\xb2\\xcf'",
+              "candidate_key_sha256": "f03e11239f70ea6bab30b3188e5d30e52cd72e120b946a7e17d0b8583427e413",
+              "elapsed_seconds": 0.3284344244748354,
+              "hypothesis_count": 1,
+              "hypothesis_id": "MC_C2_BYTE10_BIT2",
+              "matching_hypotheses": [
+                "MC_C2_BYTE10_BIT2"
+              ],
+              "sat_branch_count": 1,
+              "status": "sat",
+              "union_status": "sat"
+            }
+          },
+          "query_count_excluding_base": 8,
+          "separator": {
+            "elapsed_seconds": 0.10609628818929195,
+            "status": "sat",
+            "synthesis_mode": "pair_hypothesis_one_byte"
+          },
+          "separator_plaintext_hex": "00000000000000000040000000000000",
+          "step": 0
+        },
+        {
+          "attacker_first_matching_hypotheses": [
+            "MC_C2_BYTE8_BIT0"
+          ],
+          "attacker_first_status": "sat",
+          "attacker_hypothesis_union": {
+            "classification": "ambiguity"
+          },
+          "attacker_second_matching_hypotheses": [
+            "MC_C2_BYTE8_BIT0"
+          ],
+          "attacker_second_status": "sat",
+          "known_function": {
+            "classification": "ambiguity",
+            "first": {
+              "candidate_key": "b'\\x02\\x9c\\x12@R4R\\xb7\\x002L\\x08\\x04\\x9c\\xf5R'",
+              "candidate_key_sha256": "ec5e3aa503f1bb5e1e66eb756f54882e9a82493fdfef5a134abf0c8ea0fc6837",
+              "elapsed_seconds": 0.138735206797719,
+              "hypothesis_count": 1,
+              "hypothesis_id": "MC_C2_BYTE10_BIT2",
+              "matching_hypotheses": [
+                "MC_C2_BYTE10_BIT2"
+              ],
+              "sat_branch_count": 1,
+              "status": "sat",
+              "union_status": "sat"
+            },
+            "second": {
+              "candidate_key": "b'~\\x00\\xa4\\x80T\\x81RB\\x00\\x81Q\\x08-\\xc5\\xa0,'",
+              "candidate_key_sha256": "f41e2377df08957caed5e84596f152793de6a7d1ab1862743d5d3735c2925cc2",
+              "elapsed_seconds": 0.13312601298093796,
+              "hypothesis_count": 1,
+              "hypothesis_id": "MC_C2_BYTE10_BIT2",
+              "matching_hypotheses": [
+                "MC_C2_BYTE10_BIT2"
+              ],
+              "sat_branch_count": 1,
+              "status": "sat",
+              "union_status": "sat"
+            }
+          },
+          "query_count_excluding_base": 9,
+          "separator": {
+            "elapsed_seconds": 0.06552172265946865,
+            "status": "sat",
+            "synthesis_mode": "pair_hypothesis_one_byte"
+          },
+          "separator_plaintext_hex": "00000000009000000000000000000000",
+          "step": 1
+        },
+        {
+          "attacker_first_matching_hypotheses": [
+            "MC_C2_BYTE8_BIT0"
+          ],
+          "attacker_first_status": "sat",
+          "attacker_hypothesis_union": {
+            "classification": "ambiguity"
+          },
+          "attacker_second_matching_hypotheses": [
+            "MC_C2_BYTE8_BIT0"
+          ],
+          "attacker_second_status": "sat",
+          "known_function": {
+            "classification": "ambiguity",
+            "first": {
+              "candidate_key": "b'\\x10\\x04A\\x81\\x89\\x08\\x91c\\x00\\xa5\\x00\\xd7G\\x9e\\xf2\\x00'",
+              "candidate_key_sha256": "28d7c270019a1aeb25da775e927dcd045e8432e0ddbf0d639ac23a63562c5f29",
+              "elapsed_seconds": 0.4998003263026476,
+              "hypothesis_count": 1,
+              "hypothesis_id": "MC_C2_BYTE10_BIT2",
+              "matching_hypotheses": [
+                "MC_C2_BYTE10_BIT2"
+              ],
+              "sat_branch_count": 1,
+              "status": "sat",
+              "union_status": "sat"
+            },
+            "second": {
+              "candidate_key": "b'\\x08M\\x18#\\xc3\\xf8\\xbb$\\x00\\xbb\\x88\\xfad\\xc0\\x159'",
+              "candidate_key_sha256": "a6db3637bab95d03aef72f4414d2f0bae164501d7a9d427a668499d6c719c0d5",
+              "elapsed_seconds": 0.4335159845650196,
+              "hypothesis_count": 1,
+              "hypothesis_id": "MC_C2_BYTE10_BIT2",
+              "matching_hypotheses": [
+                "MC_C2_BYTE10_BIT2"
+              ],
+              "sat_branch_count": 1,
+              "status": "sat",
+              "union_status": "sat"
+            }
+          },
+          "query_count_excluding_base": 10,
+          "step": 2,
+          "terminal": "query_budget_exhausted"
+        }
+      ],
+      "terminal": "query_budget_exhausted",
+      "trial_id": "trial-7000",
+      "true_bit_index_evaluation_only": 82,
+      "true_function_retained": true
+    }
+  ],
+  "schema": "mc-channel-hypothesis-bridge-v1",
+  "settings": {
+    "branch_workers": 8,
+    "depth": 2,
+    "hypotheses_per_column": 32,
+    "initial_query_count_excluding_base": 8,
+    "max_adaptive_queries": 2,
+    "query_domain": "one_byte",
+    "sbox_encoding": "uf_axiom"
+  }
+}

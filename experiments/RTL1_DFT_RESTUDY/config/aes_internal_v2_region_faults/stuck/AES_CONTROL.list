@@ -1,0 +1,8 @@
+sa1 AN \u_aes_peripheral/u_aes_round1/done_reg_reg/D
+sa0 AN \u_aes_peripheral/u_aes_round1/done_reg_reg/D
+sa1 AN \u_aes_peripheral/u_aes_round1/valid_sr_reg/D
+sa0 AN \u_aes_peripheral/u_aes_round1/valid_sr_reg/D
+sa1 AN \u_aes_peripheral/u_aes_round1/valid_sb_reg/D
+sa0 AN \u_aes_peripheral/u_aes_round1/valid_sb_reg/D
+sa1 AN \u_aes_peripheral/u_aes_round1/valid_iark_reg/D
+sa0 AN \u_aes_peripheral/u_aes_round1/valid_iark_reg/D

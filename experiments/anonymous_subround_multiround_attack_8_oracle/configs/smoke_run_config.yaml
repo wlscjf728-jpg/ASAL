@@ -1,0 +1,24 @@
+campaign:
+  seeds: 1
+attack:
+  depth: 2
+  mode: differential
+  initial_query_count: 32
+  fixed_query_ladder:
+  - 32
+  - 64
+  - 96
+  - 128
+  - 192
+  - 255
+solver:
+  first_timeout_ms: 120000
+  second_timeout_ms: 600000
+  diagnostic_timeout_ms: 30000
+  sbox_encoding: uf_axiom
+adaptive_query:
+  synthesis_mode: fixed_pair
+  max_adaptive_queries: 8
+  separability_timeout_ms: 600000
+  query_domain: one_byte
+  max_active_bytes: 1

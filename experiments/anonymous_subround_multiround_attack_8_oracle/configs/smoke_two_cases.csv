@@ -1,0 +1,3 @@
+attack8_case_id,source_phase,source_case_id,tap_count,cand_a,cand_b,cand_c,cand_d,stage_pair,topology_class,expected_risk_class,source_selection_reason,proof_ambiguity_runs,proof_unique_runs,unresolved_runs,source_min_query,source_max_query,attack8_selection_reason
+p7_1_2b_SB_120__MC_33,7_1,SB_120__MC_33,2,SB_120,MC_33,,,SB-MC,early_late_mixed,early_late_mixed,gap_uncovered_structural_cell,3,0,0,32,32,all_directly_resolved_runs_ambiguous
+p7_1_2b_MC_112__ARK_106,7_1,MC_112__ARK_106,2,MC_112,ARK_106,,,MC-ARK,late_only,late_only,gap_uncovered_structural_cell,3,0,0,32,32,all_directly_resolved_runs_ambiguous

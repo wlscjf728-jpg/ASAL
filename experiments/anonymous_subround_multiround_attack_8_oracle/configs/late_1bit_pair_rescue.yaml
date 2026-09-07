@@ -1,0 +1,21 @@
+campaign:
+  workers: 32
+attack:
+  depth: 2
+  mode: differential
+  initial_query_count: 128
+solver:
+  first_timeout_ms: 0
+  second_timeout_ms: 0
+  diagnostic_timeout_ms: 0
+  separability_timeout_ms: 0
+  sbox_encoding: uf_axiom
+query_generation:
+  query_domain: unrestricted
+  max_active_bytes: 16
+paths:
+  baseline_result_dir: results/late_1bit_fixed_q128_runs
+  checkpoint_dir: results/late_1bit_pair_rescue_checkpoints
+  result_dir: results/late_1bit_pair_rescue_runs
+  summary: results/late_1bit_pair_rescue_summary.jsonl
+  errors: logs/late_1bit_pair_rescue_errors.jsonl

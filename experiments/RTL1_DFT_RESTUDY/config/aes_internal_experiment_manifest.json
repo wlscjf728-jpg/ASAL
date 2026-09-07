@@ -1,0 +1,46 @@
+{
+  "campaign": "aes_internal_d1_d5",
+  "checkpoint_ddc_sha256": "2eac94224ca109e3b2f65a4537b00d1f73aa6113393225c9712729cb123a2a72",
+  "checkpoint_verilog_sha256": "d3989fbeb0353ca7b35dbbd1cb48a74fbdb6b4ad7f4f8cf761205cda9b27870e",
+  "inventory_sha256": "1a4561907e419b7d4ffa760a404c5c36fc604a2b6a00885c06ce9540b650b353",
+  "old_common_count": 896,
+  "old_common_aes_count": 260,
+  "old_common_host_count": 636,
+  "aes_all_count": 772,
+  "aes_stage_counts": {
+    "IARK": 128,
+    "SB": 128,
+    "SR": 128,
+    "MC": 128
+  },
+  "aes_non_stage_count": 260,
+  "host_all_count": 3385,
+  "common_host_count": 896,
+  "host_noncommon_count": 2489,
+  "variable_budget": 128,
+  "total_scan_count": 1024,
+  "chain_count": 1,
+  "random_seeds": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10
+  ],
+  "random_selection": "random.Random(seed).sample(sorted(pool), 128), then lexical output order",
+  "direct_candidate_cell_count": 3261,
+  "direct_site_count": 6457,
+  "direct_candidate_scope": "AES all candidates plus host cells outside new common",
+  "manifest_sha256": {
+    "common": "a094804ff15573d0297426921a22541cb65c6fd8ad443043cf7797c43cba111f",
+    "iark": "6f5f13f93201ebedef13e5406c3fc97ef7c28317ec62ee78aeed0154a6c3474f",
+    "sb": "f3be6e69b43fd91defe356e5026bad40eb5903512739791210664d08cd2be8c6",
+    "sr": "cb34cf5cb99364f6bf0572b1f33aefe3cdd4c9652209e7776fbbd4829875669e",
+    "mc": "b218eb1feead7cb7c4bb524c7613664530d8d747e82dd37201b245d38a285b6b"
+  }
+}
