@@ -45,6 +45,9 @@ def smoke() -> None:
     run([str(PYTHON), "scripts/adaptive_query_attack.py", "--strategy", "adaptive_pairwise", "--dry-run"], attack8)
     run([str(PYTHON), "-m", "pytest", "-q", "tests"], attack8)
     run([str(PYTHON), "-m", "pytest", "-q", "tests"], discovery)
+    key_manifest = diversity / "inputs/evaluator_keys.csv"
+    if not key_manifest.exists():
+        run([str(PYTHON), "scripts/bootstrap_inputs.py", "--seed", "20260903", "--count", "20"], diversity)
     run([str(PYTHON), "-m", "pytest", "-q", "tests"], diversity)
     run([str(PYTHON), "-m", "pytest", "-q", "tests"], phase_alpha)
 
