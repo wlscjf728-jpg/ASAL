@@ -2,9 +2,13 @@ schema: asal-gate-case-status-v1
 campaign_id: gate_level_topology_8
 case_id: case_06_mc082
 canonical_status: complete
-final_query: Q133
+final_query: Q135
 terminal_transition: SAT_to_UNSAT
 key_match: true
-provenance: user_confirmed
-artifact_verification: pending_q133_artifact_or_revalidation
-observed_snapshot_status: stopped_at_q132
+provenance: reproduced_from_original_experiment
+artifact_verification: verified_against_original_q135_solver_artifact
+observed_snapshot_status: q135_solver_artifact_complete
+
+adaptive_terminal_sequence: Q133_SAT_SAT -> Q134_SAT_SAT -> Q135_SAT_UNSAT
+source_artifact_relative_path: experiments/extra_exp1/cases/case_06_mc082/results/phase_b/q135_mc_hypothesis_solver_attack.json
+source_artifact_sha256: c69c35a60a168ad0478cb5b43e2050eba081d73342951b1aac4f215e4d3e01d3

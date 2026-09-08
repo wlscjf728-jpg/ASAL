@@ -66,8 +66,9 @@ corresponding tools and private inputs are available.
 
 - Original source root: `/srscl/home/jcjeong/Research/Scan_Secure/experiments`
 - Latest DFT source: `experiments/RTL1_DFT_RESTUDY`
-- Gate-level case06 canonical status: Q133 completion is user-confirmed; the
-  visible Q132 artifact is retained as an intermediate observation.
+- Gate-level case06 canonical status: the adaptive loop reaches Q135 with
+  SAT→UNSAT and a matching recovered key. The original Q135 solver artifact is
+  verified by digest; generated gate outputs remain excluded from Git.
 - Old 422-fault DFT material is not a canonical campaign.
 
 See [`docs/REPRODUCTION.md`](docs/REPRODUCTION.md) for the exact campaign

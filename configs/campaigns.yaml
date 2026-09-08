@@ -28,8 +28,8 @@ campaigns:
   gate_level_topology_8:
     role: EDA_reproduction
     cases: 8
-    case06_final_query: Q133
-    case06_provenance: user_confirmed
+    case06_final_query: Q135
+    case06_provenance: reproduced_from_original_experiment
     source: experiments/extra_exp1
   dft_rtl1_latest:
     role: canonical_DFT

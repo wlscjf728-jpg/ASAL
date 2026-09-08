@@ -71,10 +71,11 @@ before invoking the full EDA wrapper.
 make gate-smoke
 ```
 
-Case06 is recorded as canonical Q133 completion by user confirmation. The
-visible Q132 artifact remains an intermediate source snapshot; a future release
-should add the Q133 solver/evaluator artifact before claiming independently
-verified gate-level replay.
+Case06 is complete through Q135. The fixed Q128 transcript is followed by
+adaptive Q133 and Q134 SAT→SAT checks and a Q135 SAT→UNSAT uniqueness proof
+with key match. Compact Q133–Q135 solver certificates are included and linked
+by SHA-256 in `configs/gate_level_case06.yaml`; large gate-level captures and
+evaluator inputs remain excluded from Git.
 
 ## 5. Latest DFT reproduction
 
