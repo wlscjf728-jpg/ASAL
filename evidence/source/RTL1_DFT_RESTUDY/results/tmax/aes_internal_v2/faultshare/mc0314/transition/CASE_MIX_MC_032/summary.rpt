@@ -1,0 +1,18 @@
+   Uncollapsed Transition Fault Summary Report
+ -----------------------------------------------
+ fault class                     code   #faults
+ ------------------------------  ----  ---------
+ Detected                         DT        118
+ Possibly detected                PT          0
+ Undetectable                     UD          0
+ ATPG untestable                  AU       3873
+ Not detected                     ND          0
+ -----------------------------------------------
+ total faults                              3991
+ test coverage                             2.96%
+ -----------------------------------------------
+            Pattern Summary Report
+ -----------------------------------------------
+ #internal patterns                           5
+     #basic_scan patterns                     5
+ -----------------------------------------------

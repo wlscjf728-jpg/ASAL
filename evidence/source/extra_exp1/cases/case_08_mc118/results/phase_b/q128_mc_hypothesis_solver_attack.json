@@ -1,0 +1,246 @@
+{
+  "schema": "mc9-anonymous-function-attribution-solver-v1",
+  "input_transcript": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/extra_exp1/cases/case_08_mc118/results/phase_b/q128_mc_hypotheses_attack.json",
+  "sbox_encoding": "uf_axiom",
+  "initial_hypothesis_count": 32,
+  "branch_consistency": [
+    {
+      "hypothesis_id": "h00",
+      "status": "unsat",
+      "elapsed_seconds": 136.55555161600932,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h01",
+      "status": "unsat",
+      "elapsed_seconds": 20.146531270933338,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h02",
+      "status": "unsat",
+      "elapsed_seconds": 209.02825045294594,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h03",
+      "status": "unsat",
+      "elapsed_seconds": 5.017517635948025,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h04",
+      "status": "unsat",
+      "elapsed_seconds": 150.096070057014,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h05",
+      "status": "unsat",
+      "elapsed_seconds": 139.6155938010197,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h06",
+      "status": "unsat",
+      "elapsed_seconds": 0.06760531000327319,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h07",
+      "status": "unsat",
+      "elapsed_seconds": 203.74598246999085,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h08",
+      "status": "unsat",
+      "elapsed_seconds": 9.447972769965418,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h09",
+      "status": "unsat",
+      "elapsed_seconds": 182.00909171905369,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h10",
+      "status": "unsat",
+      "elapsed_seconds": 290.17576072202064,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h11",
+      "status": "unsat",
+      "elapsed_seconds": 209.29565370094497,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h12",
+      "status": "unsat",
+      "elapsed_seconds": 158.35943071602378,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h13",
+      "status": "unsat",
+      "elapsed_seconds": 9.262410948984325,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h14",
+      "status": "unsat",
+      "elapsed_seconds": 328.1345831459621,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h15",
+      "status": "unsat",
+      "elapsed_seconds": 128.53827893803827,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h16",
+      "status": "unsat",
+      "elapsed_seconds": 0.06472352589480579,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h17",
+      "status": "unsat",
+      "elapsed_seconds": 0.12347650900483131,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h18",
+      "status": "unsat",
+      "elapsed_seconds": 238.11976431298535,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h19",
+      "status": "unsat",
+      "elapsed_seconds": 0.0757668949663639,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h20",
+      "status": "unsat",
+      "elapsed_seconds": 58.375155154033564,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h21",
+      "status": "unsat",
+      "elapsed_seconds": 4.008245790028013,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h22",
+      "status": "sat",
+      "elapsed_seconds": 4406.066537427949,
+      "unknown_reason": "",
+      "model_hex": "a66f651322597191ab9f8f8af4c2db61"
+    },
+    {
+      "hypothesis_id": "h23",
+      "status": "unsat",
+      "elapsed_seconds": 104.07238486700226,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h24",
+      "status": "unsat",
+      "elapsed_seconds": 1.6190039089415222,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h25",
+      "status": "unsat",
+      "elapsed_seconds": 141.66842236893717,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h26",
+      "status": "unsat",
+      "elapsed_seconds": 244.83859118190594,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h27",
+      "status": "unsat",
+      "elapsed_seconds": 16.639393302961253,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h28",
+      "status": "unsat",
+      "elapsed_seconds": 229.9734813158866,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h29",
+      "status": "unsat",
+      "elapsed_seconds": 28.64188874606043,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h30",
+      "status": "unsat",
+      "elapsed_seconds": 43.282221836969256,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h31",
+      "status": "unsat",
+      "elapsed_seconds": 245.1931211759802,
+      "unknown_reason": ""
+    }
+  ],
+  "surviving_hypotheses": [
+    {
+      "hypothesis_id": "h22",
+      "stage": "MC",
+      "bit_index": 118,
+      "column": "C3",
+      "source_byte_support": [
+        12,
+        1,
+        6,
+        11
+      ],
+      "row": 2,
+      "bit_in_byte": 6
+    }
+  ],
+  "surviving_hypothesis_count": 1,
+  "joint_key_uniqueness": {
+    "first_result": "sat",
+    "second_result": "unsat",
+    "first_time": 4406.066537427949,
+    "second_time": 1409.930388845969,
+    "first_model_hex": "a66f651322597191ab9f8f8af4c2db61",
+    "first_hypothesis_id": "h22",
+    "alternative_model": "",
+    "alternative_hypothesis_id": "",
+    "timeout": false,
+    "unknown": false,
+    "z3_reason_unknown": "",
+    "classification": "full_key_unique",
+    "confirmed_unique_candidate": true,
+    "branch_key_exclusion": [
+      {
+        "hypothesis_id": "h22",
+        "status": "unsat",
+        "elapsed_seconds": 1408.558852756978,
+        "unknown_reason": ""
+      }
+    ],
+    "branch_workers": 1,
+    "key_exclusion_scope": "all_surviving_hypotheses"
+  },
+  "attack_used_ground_truth_mc9": false,
+  "attack_used_hidden_key": false,
+  "wall_time_seconds": 5829.464950185968
+}

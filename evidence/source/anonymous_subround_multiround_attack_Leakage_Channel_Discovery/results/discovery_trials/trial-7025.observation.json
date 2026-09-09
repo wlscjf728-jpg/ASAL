@@ -1,0 +1,342 @@
+{
+  "schema": "anonymous-mc-channel-observation-v1",
+  "trial_id": "trial-7025",
+  "scan_slot": 131,
+  "tap_count": 1,
+  "capture_schedule": "mc_capture",
+  "reference_plaintext_hex": "00000000000000000000000000000000",
+  "differential_signatures": [
+    {
+      "query_id": 0,
+      "plaintext_hex": "00000000000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 1,
+      "plaintext_hex": "01000000000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 2,
+      "plaintext_hex": "02000000000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 3,
+      "plaintext_hex": "04000000000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 4,
+      "plaintext_hex": "08000000000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 5,
+      "plaintext_hex": "00010000000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 6,
+      "plaintext_hex": "00020000000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 7,
+      "plaintext_hex": "00040000000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 8,
+      "plaintext_hex": "00080000000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 9,
+      "plaintext_hex": "00000100000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 10,
+      "plaintext_hex": "00000200000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 11,
+      "plaintext_hex": "00000400000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 12,
+      "plaintext_hex": "00000800000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 13,
+      "plaintext_hex": "00000001000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 14,
+      "plaintext_hex": "00000002000000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 15,
+      "plaintext_hex": "00000004000000000000000000000000",
+      "differential_bit": 1
+    },
+    {
+      "query_id": 16,
+      "plaintext_hex": "00000008000000000000000000000000",
+      "differential_bit": 1
+    },
+    {
+      "query_id": 17,
+      "plaintext_hex": "00000000010000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 18,
+      "plaintext_hex": "00000000020000000000000000000000",
+      "differential_bit": 1
+    },
+    {
+      "query_id": 19,
+      "plaintext_hex": "00000000040000000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 20,
+      "plaintext_hex": "00000000080000000000000000000000",
+      "differential_bit": 1
+    },
+    {
+      "query_id": 21,
+      "plaintext_hex": "00000000000100000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 22,
+      "plaintext_hex": "00000000000200000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 23,
+      "plaintext_hex": "00000000000400000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 24,
+      "plaintext_hex": "00000000000800000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 25,
+      "plaintext_hex": "00000000000001000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 26,
+      "plaintext_hex": "00000000000002000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 27,
+      "plaintext_hex": "00000000000004000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 28,
+      "plaintext_hex": "00000000000008000000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 29,
+      "plaintext_hex": "00000000000000010000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 30,
+      "plaintext_hex": "00000000000000020000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 31,
+      "plaintext_hex": "00000000000000040000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 32,
+      "plaintext_hex": "00000000000000080000000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 33,
+      "plaintext_hex": "00000000000000000100000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 34,
+      "plaintext_hex": "00000000000000000200000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 35,
+      "plaintext_hex": "00000000000000000400000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 36,
+      "plaintext_hex": "00000000000000000800000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 37,
+      "plaintext_hex": "00000000000000000001000000000000",
+      "differential_bit": 1
+    },
+    {
+      "query_id": 38,
+      "plaintext_hex": "00000000000000000002000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 39,
+      "plaintext_hex": "00000000000000000004000000000000",
+      "differential_bit": 1
+    },
+    {
+      "query_id": 40,
+      "plaintext_hex": "00000000000000000008000000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 41,
+      "plaintext_hex": "00000000000000000000010000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 42,
+      "plaintext_hex": "00000000000000000000020000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 43,
+      "plaintext_hex": "00000000000000000000040000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 44,
+      "plaintext_hex": "00000000000000000000080000000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 45,
+      "plaintext_hex": "00000000000000000000000100000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 46,
+      "plaintext_hex": "00000000000000000000000200000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 47,
+      "plaintext_hex": "00000000000000000000000400000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 48,
+      "plaintext_hex": "00000000000000000000000800000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 49,
+      "plaintext_hex": "00000000000000000000000001000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 50,
+      "plaintext_hex": "00000000000000000000000002000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 51,
+      "plaintext_hex": "00000000000000000000000004000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 52,
+      "plaintext_hex": "00000000000000000000000008000000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 53,
+      "plaintext_hex": "00000000000000000000000000010000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 54,
+      "plaintext_hex": "00000000000000000000000000020000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 55,
+      "plaintext_hex": "00000000000000000000000000040000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 56,
+      "plaintext_hex": "00000000000000000000000000080000",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 57,
+      "plaintext_hex": "00000000000000000000000000000100",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 58,
+      "plaintext_hex": "00000000000000000000000000000200",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 59,
+      "plaintext_hex": "00000000000000000000000000000400",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 60,
+      "plaintext_hex": "00000000000000000000000000000800",
+      "differential_bit": 1
+    },
+    {
+      "query_id": 61,
+      "plaintext_hex": "00000000000000000000000000000001",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 62,
+      "plaintext_hex": "00000000000000000000000000000002",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 63,
+      "plaintext_hex": "00000000000000000000000000000004",
+      "differential_bit": 0
+    },
+    {
+      "query_id": 64,
+      "plaintext_hex": "00000000000000000000000000000008",
+      "differential_bit": 0
+    }
+  ],
+  "semantic_hypotheses": [
+    {
+      "stage": "MC",
+      "column": 1
+    }
+  ],
+  "source": "anonymous_scan_channel_discovery"
+}

@@ -1,0 +1,11 @@
+{
+  "revision": 2,
+  "dft_audit_pass": true,
+  "stuck_complete": true,
+  "transition_complete": true,
+  "direct_faults_excluded_globally": true,
+  "historical_422_used": false,
+  "status_difference_rows": 0,
+  "region_stuck_complete": true,
+  "region_transition_complete": true
+}

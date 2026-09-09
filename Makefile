@@ -12,6 +12,7 @@ DFT := $(ROOT)/experiments/RTL1_DFT_RESTUDY
 .PHONY: help install smoke one-bit-96-dry-run one-bit-96 discovery-smoke key-diversity-smoke tracking gate-smoke dft-prepare dft-run audit git-status
 
 help:
+	@echo "make evidence-verify (review evidence without EDA tools)"
 	@echo "make one-bit-384-dry-run | one-bit-384 | one-bit-384-verify"
 	@echo "make install | smoke | one-bit-96-dry-run | one-bit-96"
 	@echo "make discovery-smoke | key-diversity-smoke | tracking | gate-smoke"
@@ -59,6 +60,11 @@ dft-run:
 
 audit:
 	$(PYTHON) scripts/audit_repository.py
+
+.PHONY: evidence-verify
+evidence-verify:
+	$(PYTHON) scripts/evidence.py
+	$(PYTHON) scripts/paper384.py --verify
 
 git-status:
 	@git -C "$(ROOT)" status --short

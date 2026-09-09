@@ -1,0 +1,3131 @@
+{
+  "schema": "phase-alpha-behavioral-tracking-v1",
+  "experiment": "MC9 anonymous channel reacquisition",
+  "scope": "tracking_only_no_key_recovery",
+  "source": {
+    "capture": "inputs/phase0_gate_scan_attack.txt",
+    "queries": "inputs/phase0_queries.txt",
+    "discovery": "inputs/phase0_discovery.json",
+    "scan_bit_count": 256,
+    "query_count": 65,
+    "schedule": 1,
+    "initial_selected_slot": 255
+  },
+  "fingerprint": {
+    "query_ids": [
+      0,
+      1,
+      2,
+      3,
+      4,
+      5,
+      6,
+      7,
+      8,
+      9,
+      10,
+      11,
+      12,
+      13,
+      14,
+      15
+    ],
+    "bit_string": "0001000000000000",
+    "initial_probe_count": 16
+  },
+  "scenarios": {
+    "identity_static": {
+      "mode": "identity",
+      "epoch_count": 1,
+      "tracking_accuracy": 1.0,
+      "all_epochs_correct": true,
+      "collision_epoch_count": 1,
+      "average_probe_count": 23,
+      "epochs": [
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            132,
+            255
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            255
+          ],
+          "selected_slot": 255,
+          "evaluator_current_slot": 255,
+          "tracking_success": true,
+          "tracking_correct": true
+        }
+      ]
+    },
+    "stable_refresh_65": {
+      "mode": "epoch_stable",
+      "refresh_interval_payload_queries": 65,
+      "epoch_count": 1,
+      "tracking_accuracy": 1.0,
+      "all_epochs_correct": true,
+      "collision_epoch_count": 1,
+      "average_probe_count": 23.0,
+      "epochs": [
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            97,
+            247
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            97
+          ],
+          "selected_slot": 97,
+          "evaluator_current_slot": 97,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 0,
+          "payload_query_start": 16,
+          "payload_query_end": 64,
+          "payload_query_count": 49
+        }
+      ]
+    },
+    "stable_refresh_16": {
+      "mode": "epoch_stable",
+      "refresh_interval_payload_queries": 16,
+      "epoch_count": 4,
+      "tracking_accuracy": 1.0,
+      "all_epochs_correct": true,
+      "collision_epoch_count": 4,
+      "average_probe_count": 23.0,
+      "epochs": [
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            97,
+            247
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            97
+          ],
+          "selected_slot": 97,
+          "evaluator_current_slot": 97,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 0,
+          "payload_query_start": 16,
+          "payload_query_end": 31,
+          "payload_query_count": 16
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            192,
+            203
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            203
+          ],
+          "selected_slot": 203,
+          "evaluator_current_slot": 203,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 1,
+          "payload_query_start": 32,
+          "payload_query_end": 47,
+          "payload_query_count": 16
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            38,
+            87
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            38
+          ],
+          "selected_slot": 38,
+          "evaluator_current_slot": 38,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 2,
+          "payload_query_start": 48,
+          "payload_query_end": 63,
+          "payload_query_count": 16
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            4,
+            6
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            6
+          ],
+          "selected_slot": 6,
+          "evaluator_current_slot": 6,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 3,
+          "payload_query_start": 64,
+          "payload_query_end": 64,
+          "payload_query_count": 1
+        }
+      ]
+    },
+    "stable_refresh_8": {
+      "mode": "epoch_stable",
+      "refresh_interval_payload_queries": 8,
+      "epoch_count": 7,
+      "tracking_accuracy": 1.0,
+      "all_epochs_correct": true,
+      "collision_epoch_count": 7,
+      "average_probe_count": 23.0,
+      "epochs": [
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            97,
+            247
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            97
+          ],
+          "selected_slot": 97,
+          "evaluator_current_slot": 97,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 0,
+          "payload_query_start": 16,
+          "payload_query_end": 23,
+          "payload_query_count": 8
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            192,
+            203
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            203
+          ],
+          "selected_slot": 203,
+          "evaluator_current_slot": 203,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 1,
+          "payload_query_start": 24,
+          "payload_query_end": 31,
+          "payload_query_count": 8
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            38,
+            87
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            38
+          ],
+          "selected_slot": 38,
+          "evaluator_current_slot": 38,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 2,
+          "payload_query_start": 32,
+          "payload_query_end": 39,
+          "payload_query_count": 8
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            4,
+            6
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            6
+          ],
+          "selected_slot": 6,
+          "evaluator_current_slot": 6,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 3,
+          "payload_query_start": 40,
+          "payload_query_end": 47,
+          "payload_query_count": 8
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            223,
+            227
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            223
+          ],
+          "selected_slot": 223,
+          "evaluator_current_slot": 223,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 4,
+          "payload_query_start": 48,
+          "payload_query_end": 55,
+          "payload_query_count": 8
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            33,
+            78
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            78
+          ],
+          "selected_slot": 78,
+          "evaluator_current_slot": 78,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 5,
+          "payload_query_start": 56,
+          "payload_query_end": 63,
+          "payload_query_count": 8
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            38,
+            111
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            38
+          ],
+          "selected_slot": 38,
+          "evaluator_current_slot": 38,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 6,
+          "payload_query_start": 64,
+          "payload_query_end": 64,
+          "payload_query_count": 1
+        }
+      ]
+    },
+    "stable_refresh_4": {
+      "mode": "epoch_stable",
+      "refresh_interval_payload_queries": 4,
+      "epoch_count": 13,
+      "tracking_accuracy": 1.0,
+      "all_epochs_correct": true,
+      "collision_epoch_count": 13,
+      "average_probe_count": 23.0,
+      "epochs": [
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            97,
+            247
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            97
+          ],
+          "selected_slot": 97,
+          "evaluator_current_slot": 97,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 0,
+          "payload_query_start": 16,
+          "payload_query_end": 19,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            192,
+            203
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            203
+          ],
+          "selected_slot": 203,
+          "evaluator_current_slot": 203,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 1,
+          "payload_query_start": 20,
+          "payload_query_end": 23,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            38,
+            87
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            38
+          ],
+          "selected_slot": 38,
+          "evaluator_current_slot": 38,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 2,
+          "payload_query_start": 24,
+          "payload_query_end": 27,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            4,
+            6
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            6
+          ],
+          "selected_slot": 6,
+          "evaluator_current_slot": 6,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 3,
+          "payload_query_start": 28,
+          "payload_query_end": 31,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            223,
+            227
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            223
+          ],
+          "selected_slot": 223,
+          "evaluator_current_slot": 223,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 4,
+          "payload_query_start": 32,
+          "payload_query_end": 35,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            33,
+            78
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            78
+          ],
+          "selected_slot": 78,
+          "evaluator_current_slot": 78,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 5,
+          "payload_query_start": 36,
+          "payload_query_end": 39,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            38,
+            111
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            38
+          ],
+          "selected_slot": 38,
+          "evaluator_current_slot": 38,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 6,
+          "payload_query_start": 40,
+          "payload_query_end": 43,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            60,
+            231
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            60
+          ],
+          "selected_slot": 60,
+          "evaluator_current_slot": 60,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 7,
+          "payload_query_start": 44,
+          "payload_query_end": 47,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            94,
+            170
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            94
+          ],
+          "selected_slot": 94,
+          "evaluator_current_slot": 94,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 8,
+          "payload_query_start": 48,
+          "payload_query_end": 51,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            133,
+            186
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            186
+          ],
+          "selected_slot": 186,
+          "evaluator_current_slot": 186,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 9,
+          "payload_query_start": 52,
+          "payload_query_end": 55,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            191,
+            209
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            209
+          ],
+          "selected_slot": 209,
+          "evaluator_current_slot": 209,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 10,
+          "payload_query_start": 56,
+          "payload_query_end": 59,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            77,
+            157
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            77
+          ],
+          "selected_slot": 77,
+          "evaluator_current_slot": 77,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 11,
+          "payload_query_start": 60,
+          "payload_query_end": 63,
+          "payload_query_count": 4
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            20,
+            239
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            20
+          ],
+          "selected_slot": 20,
+          "evaluator_current_slot": 20,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 12,
+          "payload_query_start": 64,
+          "payload_query_end": 64,
+          "payload_query_count": 1
+        }
+      ]
+    },
+    "stable_refresh_1": {
+      "mode": "epoch_stable",
+      "refresh_interval_payload_queries": 1,
+      "epoch_count": 49,
+      "tracking_accuracy": 1.0,
+      "all_epochs_correct": true,
+      "collision_epoch_count": 49,
+      "average_probe_count": 23.0,
+      "epochs": [
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            97,
+            247
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            97
+          ],
+          "selected_slot": 97,
+          "evaluator_current_slot": 97,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 0,
+          "payload_query_start": 16,
+          "payload_query_end": 16,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            192,
+            203
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            203
+          ],
+          "selected_slot": 203,
+          "evaluator_current_slot": 203,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 1,
+          "payload_query_start": 17,
+          "payload_query_end": 17,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            38,
+            87
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            38
+          ],
+          "selected_slot": 38,
+          "evaluator_current_slot": 38,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 2,
+          "payload_query_start": 18,
+          "payload_query_end": 18,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            4,
+            6
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            6
+          ],
+          "selected_slot": 6,
+          "evaluator_current_slot": 6,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 3,
+          "payload_query_start": 19,
+          "payload_query_end": 19,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            223,
+            227
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            223
+          ],
+          "selected_slot": 223,
+          "evaluator_current_slot": 223,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 4,
+          "payload_query_start": 20,
+          "payload_query_end": 20,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            33,
+            78
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            78
+          ],
+          "selected_slot": 78,
+          "evaluator_current_slot": 78,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 5,
+          "payload_query_start": 21,
+          "payload_query_end": 21,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            38,
+            111
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            38
+          ],
+          "selected_slot": 38,
+          "evaluator_current_slot": 38,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 6,
+          "payload_query_start": 22,
+          "payload_query_end": 22,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            60,
+            231
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            60
+          ],
+          "selected_slot": 60,
+          "evaluator_current_slot": 60,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 7,
+          "payload_query_start": 23,
+          "payload_query_end": 23,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            94,
+            170
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            94
+          ],
+          "selected_slot": 94,
+          "evaluator_current_slot": 94,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 8,
+          "payload_query_start": 24,
+          "payload_query_end": 24,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            133,
+            186
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            186
+          ],
+          "selected_slot": 186,
+          "evaluator_current_slot": 186,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 9,
+          "payload_query_start": 25,
+          "payload_query_end": 25,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            191,
+            209
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            209
+          ],
+          "selected_slot": 209,
+          "evaluator_current_slot": 209,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 10,
+          "payload_query_start": 26,
+          "payload_query_end": 26,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            77,
+            157
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            77
+          ],
+          "selected_slot": 77,
+          "evaluator_current_slot": 77,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 11,
+          "payload_query_start": 27,
+          "payload_query_end": 27,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            20,
+            239
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            20
+          ],
+          "selected_slot": 20,
+          "evaluator_current_slot": 20,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 12,
+          "payload_query_start": 28,
+          "payload_query_end": 28,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            41,
+            235
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            235
+          ],
+          "selected_slot": 235,
+          "evaluator_current_slot": 235,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 13,
+          "payload_query_start": 29,
+          "payload_query_end": 29,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            56,
+            197
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            56
+          ],
+          "selected_slot": 56,
+          "evaluator_current_slot": 56,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 14,
+          "payload_query_start": 30,
+          "payload_query_end": 30,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            141,
+            221
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            221
+          ],
+          "selected_slot": 221,
+          "evaluator_current_slot": 221,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 15,
+          "payload_query_start": 31,
+          "payload_query_end": 31,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            135,
+            236
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            236
+          ],
+          "selected_slot": 236,
+          "evaluator_current_slot": 236,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 16,
+          "payload_query_start": 32,
+          "payload_query_end": 32,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            71,
+            217
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            71
+          ],
+          "selected_slot": 71,
+          "evaluator_current_slot": 71,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 17,
+          "payload_query_start": 33,
+          "payload_query_end": 33,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            33,
+            119
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            33
+          ],
+          "selected_slot": 33,
+          "evaluator_current_slot": 33,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 18,
+          "payload_query_start": 34,
+          "payload_query_end": 34,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            31,
+            78
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            78
+          ],
+          "selected_slot": 78,
+          "evaluator_current_slot": 78,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 19,
+          "payload_query_start": 35,
+          "payload_query_end": 35,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            9,
+            68
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            9
+          ],
+          "selected_slot": 9,
+          "evaluator_current_slot": 9,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 20,
+          "payload_query_start": 36,
+          "payload_query_end": 36,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            75,
+            116
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            116
+          ],
+          "selected_slot": 116,
+          "evaluator_current_slot": 116,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 21,
+          "payload_query_start": 37,
+          "payload_query_end": 37,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            51,
+            224
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            51
+          ],
+          "selected_slot": 51,
+          "evaluator_current_slot": 51,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 22,
+          "payload_query_start": 38,
+          "payload_query_end": 38,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            65,
+            79
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            79
+          ],
+          "selected_slot": 79,
+          "evaluator_current_slot": 79,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 23,
+          "payload_query_start": 39,
+          "payload_query_end": 39,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            17,
+            194
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            17
+          ],
+          "selected_slot": 17,
+          "evaluator_current_slot": 17,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 24,
+          "payload_query_start": 40,
+          "payload_query_end": 40,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            101,
+            235
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            101
+          ],
+          "selected_slot": 101,
+          "evaluator_current_slot": 101,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 25,
+          "payload_query_start": 41,
+          "payload_query_end": 41,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            154,
+            255
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            255
+          ],
+          "selected_slot": 255,
+          "evaluator_current_slot": 255,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 26,
+          "payload_query_start": 42,
+          "payload_query_end": 42,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            64,
+            148
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            64
+          ],
+          "selected_slot": 64,
+          "evaluator_current_slot": 64,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 27,
+          "payload_query_start": 43,
+          "payload_query_end": 43,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            66,
+            139
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            66
+          ],
+          "selected_slot": 66,
+          "evaluator_current_slot": 66,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 28,
+          "payload_query_start": 44,
+          "payload_query_end": 44,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            71,
+            118
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            71
+          ],
+          "selected_slot": 71,
+          "evaluator_current_slot": 71,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 29,
+          "payload_query_start": 45,
+          "payload_query_end": 45,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            84,
+            134
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            134
+          ],
+          "selected_slot": 134,
+          "evaluator_current_slot": 134,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 30,
+          "payload_query_start": 46,
+          "payload_query_end": 46,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            63,
+            98
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            63
+          ],
+          "selected_slot": 63,
+          "evaluator_current_slot": 63,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 31,
+          "payload_query_start": 47,
+          "payload_query_end": 47,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            86,
+            179
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            179
+          ],
+          "selected_slot": 179,
+          "evaluator_current_slot": 179,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 32,
+          "payload_query_start": 48,
+          "payload_query_end": 48,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            45,
+            83
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            83
+          ],
+          "selected_slot": 83,
+          "evaluator_current_slot": 83,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 33,
+          "payload_query_start": 49,
+          "payload_query_end": 49,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            123,
+            208
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            123
+          ],
+          "selected_slot": 123,
+          "evaluator_current_slot": 123,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 34,
+          "payload_query_start": 50,
+          "payload_query_end": 50,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            135,
+            207
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            135
+          ],
+          "selected_slot": 135,
+          "evaluator_current_slot": 135,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 35,
+          "payload_query_start": 51,
+          "payload_query_end": 51,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            118,
+            161
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            161
+          ],
+          "selected_slot": 161,
+          "evaluator_current_slot": 161,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 36,
+          "payload_query_start": 52,
+          "payload_query_end": 52,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            71,
+            116
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            71
+          ],
+          "selected_slot": 71,
+          "evaluator_current_slot": 71,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 37,
+          "payload_query_start": 53,
+          "payload_query_end": 53,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            26,
+            125
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            125
+          ],
+          "selected_slot": 125,
+          "evaluator_current_slot": 125,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 38,
+          "payload_query_start": 54,
+          "payload_query_end": 54,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            69,
+            139
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            69
+          ],
+          "selected_slot": 69,
+          "evaluator_current_slot": 69,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 39,
+          "payload_query_start": 55,
+          "payload_query_end": 55,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            76,
+            247
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            247
+          ],
+          "selected_slot": 247,
+          "evaluator_current_slot": 247,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 40,
+          "payload_query_start": 56,
+          "payload_query_end": 56,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            45,
+            116
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            116
+          ],
+          "selected_slot": 116,
+          "evaluator_current_slot": 116,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 41,
+          "payload_query_start": 57,
+          "payload_query_end": 57,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            228,
+            254
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            254
+          ],
+          "selected_slot": 254,
+          "evaluator_current_slot": 254,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 42,
+          "payload_query_start": 58,
+          "payload_query_end": 58,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            248,
+            255
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            248
+          ],
+          "selected_slot": 248,
+          "evaluator_current_slot": 248,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 43,
+          "payload_query_start": 59,
+          "payload_query_end": 59,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            165,
+            190
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            165
+          ],
+          "selected_slot": 165,
+          "evaluator_current_slot": 165,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 44,
+          "payload_query_start": 60,
+          "payload_query_end": 60,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            41,
+            52
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            41
+          ],
+          "selected_slot": 41,
+          "evaluator_current_slot": 41,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 45,
+          "payload_query_start": 61,
+          "payload_query_end": 61,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            81,
+            192
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            192
+          ],
+          "selected_slot": 192,
+          "evaluator_current_slot": 192,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 46,
+          "payload_query_start": 62,
+          "payload_query_end": 62,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            65,
+            170
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            170
+          ],
+          "selected_slot": 170,
+          "evaluator_current_slot": 170,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 47,
+          "payload_query_start": 63,
+          "payload_query_end": 63,
+          "payload_query_count": 1
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            33,
+            95
+          ],
+          "probe_count": 23,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            },
+            {
+              "query_id": 64,
+              "observed": 1,
+              "expected": 1,
+              "match": true
+            }
+          ],
+          "validation_passed": true,
+          "additional_probe_count": 7,
+          "final_match_count": 1,
+          "final_matches": [
+            95
+          ],
+          "selected_slot": 95,
+          "evaluator_current_slot": 95,
+          "tracking_success": true,
+          "tracking_correct": true,
+          "epoch_index": 48,
+          "payload_query_start": 64,
+          "payload_query_end": 64,
+          "payload_query_count": 1
+        }
+      ]
+    },
+    "negative_independent_probe_permutation": {
+      "mode": "independent_per_observation",
+      "repetition_count": 8,
+      "expected_verdict": "FAIL_EXPECTED",
+      "unexpected_unique_reacquisition": false,
+      "all_trials_non_unique": true,
+      "trials": [
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 0,
+          "initial_matches": [],
+          "probe_count": 16,
+          "validation_probe_count": 2,
+          "validation_results": [],
+          "validation_passed": false,
+          "additional_probe_count": 0,
+          "final_match_count": 0,
+          "final_matches": [],
+          "selected_slot": null,
+          "evaluator_current_slot": null,
+          "tracking_success": false,
+          "tracking_correct": false,
+          "repetition": 0,
+          "tracking_success_is_expected": false
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 0,
+          "initial_matches": [],
+          "probe_count": 16,
+          "validation_probe_count": 2,
+          "validation_results": [],
+          "validation_passed": false,
+          "additional_probe_count": 0,
+          "final_match_count": 0,
+          "final_matches": [],
+          "selected_slot": null,
+          "evaluator_current_slot": null,
+          "tracking_success": false,
+          "tracking_correct": false,
+          "repetition": 1,
+          "tracking_success_is_expected": false
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 0,
+          "initial_matches": [],
+          "probe_count": 16,
+          "validation_probe_count": 2,
+          "validation_results": [],
+          "validation_passed": false,
+          "additional_probe_count": 0,
+          "final_match_count": 0,
+          "final_matches": [],
+          "selected_slot": null,
+          "evaluator_current_slot": null,
+          "tracking_success": false,
+          "tracking_correct": false,
+          "repetition": 2,
+          "tracking_success_is_expected": false
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 2,
+          "initial_matches": [
+            29,
+            88
+          ],
+          "probe_count": 22,
+          "validation_probe_count": 2,
+          "validation_results": [],
+          "validation_passed": false,
+          "additional_probe_count": 6,
+          "final_match_count": 0,
+          "final_matches": [],
+          "selected_slot": null,
+          "evaluator_current_slot": null,
+          "tracking_success": false,
+          "tracking_correct": false,
+          "repetition": 3,
+          "tracking_success_is_expected": false
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 1,
+          "initial_matches": [
+            64
+          ],
+          "probe_count": 16,
+          "validation_probe_count": 2,
+          "validation_results": [
+            {
+              "query_id": 63,
+              "observed": 0,
+              "expected": 1,
+              "match": false
+            },
+            {
+              "query_id": 64,
+              "observed": 0,
+              "expected": 1,
+              "match": false
+            }
+          ],
+          "validation_passed": false,
+          "additional_probe_count": 0,
+          "final_match_count": 1,
+          "final_matches": [
+            64
+          ],
+          "selected_slot": 64,
+          "evaluator_current_slot": null,
+          "tracking_success": false,
+          "tracking_correct": false,
+          "repetition": 4,
+          "tracking_success_is_expected": false
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 0,
+          "initial_matches": [],
+          "probe_count": 16,
+          "validation_probe_count": 2,
+          "validation_results": [],
+          "validation_passed": false,
+          "additional_probe_count": 0,
+          "final_match_count": 0,
+          "final_matches": [],
+          "selected_slot": null,
+          "evaluator_current_slot": null,
+          "tracking_success": false,
+          "tracking_correct": false,
+          "repetition": 5,
+          "tracking_success_is_expected": false
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 0,
+          "initial_matches": [],
+          "probe_count": 16,
+          "validation_probe_count": 2,
+          "validation_results": [],
+          "validation_passed": false,
+          "additional_probe_count": 0,
+          "final_match_count": 0,
+          "final_matches": [],
+          "selected_slot": null,
+          "evaluator_current_slot": null,
+          "tracking_success": false,
+          "tracking_correct": false,
+          "repetition": 6,
+          "tracking_success_is_expected": false
+        },
+        {
+          "initial_probe_count": 16,
+          "initial_match_count": 0,
+          "initial_matches": [],
+          "probe_count": 16,
+          "validation_probe_count": 2,
+          "validation_results": [],
+          "validation_passed": false,
+          "additional_probe_count": 0,
+          "final_match_count": 0,
+          "final_matches": [],
+          "selected_slot": null,
+          "evaluator_current_slot": null,
+          "tracking_success": false,
+          "tracking_correct": false,
+          "repetition": 7,
+          "tracking_success_is_expected": false
+        }
+      ]
+    }
+  },
+  "summary": {
+    "stable_scenario_count": 6,
+    "stable_all_correct": true,
+    "stable_min_accuracy": 1.0,
+    "stable_max_accuracy": 1.0,
+    "negative_control_expected": "FAIL_EXPECTED",
+    "negative_control_all_trials_non_unique": true,
+    "alpha_verdict": "PASS"
+  }
+}

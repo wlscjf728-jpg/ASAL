@@ -1,0 +1,21 @@
+case,placement,mode,status,detected,possibly_detected,undetectable,atpg_untestable,not_detected,total_faults,coverage_pct,patterns,class_sum,source_detail_rows,detail_note
+CASE_IARK,IARK,stuck,PASS,2840,0,1,70025,0,72866,3.9,8,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_SB,SB,stuck,PASS,2740,0,1,70125,0,72866,3.76,8,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_SR,SR,stuck,PASS,2696,0,1,70169,0,72866,3.7,8,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MC,MC,stuck,PASS,2926,0,1,69939,0,72866,4.02,9,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed01,RANDOM_STAGE,stuck,PASS,2910,0,1,69657,298,72866,3.99,9,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed02,RANDOM_STAGE,stuck,PASS,2902,0,1,69963,0,72866,3.98,9,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed03,RANDOM_STAGE,stuck,PASS,2936,0,1,69929,0,72866,4.03,9,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed04,RANDOM_STAGE,stuck,PASS,2933,0,1,69932,0,72866,4.03,8,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed05,RANDOM_STAGE,stuck,PASS,2931,0,1,69934,0,72866,4.02,11,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed06,RANDOM_STAGE,stuck,PASS,2894,0,1,69971,0,72866,3.97,11,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed07,RANDOM_STAGE,stuck,PASS,2885,0,1,69980,0,72866,3.96,9,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed08,RANDOM_STAGE,stuck,PASS,2899,0,1,69966,0,72866,3.98,9,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed09,RANDOM_STAGE,stuck,PASS,2902,0,1,69963,0,72866,3.98,10,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed10,RANDOM_STAGE,stuck,PASS,2879,0,1,69986,0,72866,3.95,10,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MIX_MC_000,MIX_MC,stuck,PASS,2840,0,1,70025,0,72866,3.9,10,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MIX_MC_032,MIX_MC,stuck,PASS,2866,0,1,69995,4,72866,3.93,8,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MIX_MC_064,MIX_MC,stuck,PASS,2896,1,1,69968,0,72866,3.98,9,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MIX_MC_096,MIX_MC,stuck,PASS,2912,0,1,69953,0,72866,4.0,9,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MIX_MC_128,MIX_MC,stuck,PASS,2926,0,1,69939,0,72866,4.02,8,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_AUTO_STAGE,AUTO_STAGE,stuck,PASS,2792,0,1,70073,0,72866,3.83,8,72866,72866,source statuses retained separately; final site status unavailable from global dump

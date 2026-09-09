@@ -1,0 +1,61 @@
+{
+  "schema": "mc9-anonymous-function-attribution-solver-v1",
+  "input_transcript": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/extra_exp1/cases/case_01_mc009/results/phase_b/q129_mc_hypotheses_attack_pruned.json",
+  "sbox_encoding": "uf_axiom",
+  "initial_hypothesis_count": 1,
+  "branch_consistency": [
+    {
+      "hypothesis_id": "h09",
+      "status": "sat",
+      "elapsed_seconds": 785.1125982030062,
+      "unknown_reason": "",
+      "model_hex": "a6bc656971597191ab438f849fc2b861"
+    }
+  ],
+  "surviving_hypotheses": [
+    {
+      "hypothesis_id": "h09",
+      "stage": "MC",
+      "bit_index": 9,
+      "column": "C0",
+      "source_byte_support": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "row": 1,
+      "bit_in_byte": 1
+    }
+  ],
+  "surviving_hypothesis_count": 1,
+  "joint_key_uniqueness": {
+    "first_result": "sat",
+    "second_result": "sat",
+    "first_time": 785.1125982030062,
+    "second_time": 720.6296872079838,
+    "first_model_hex": "a6bc656971597191ab438f849fc2b861",
+    "first_hypothesis_id": "h09",
+    "alternative_model": "a66f651322597191ab9f8f8af4c2db61",
+    "alternative_hypothesis_id": "h09",
+    "timeout": false,
+    "unknown": false,
+    "z3_reason_unknown": "",
+    "classification": "ambiguity",
+    "confirmed_unique_candidate": false,
+    "branch_key_exclusion": [
+      {
+        "hypothesis_id": "h09",
+        "status": "sat",
+        "elapsed_seconds": 720.1597281680442,
+        "unknown_reason": "",
+        "model_hex": "a66f651322597191ab9f8f8af4c2db61"
+      }
+    ],
+    "branch_workers": 1,
+    "key_exclusion_scope": "all_surviving_hypotheses"
+  },
+  "attack_used_ground_truth_mc9": false,
+  "attack_used_hidden_key": false,
+  "wall_time_seconds": 1507.1070269619813
+}

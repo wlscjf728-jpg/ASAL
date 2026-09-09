@@ -1,0 +1,244 @@
+{
+  "attack_input": "extra_exp/results/phase_b/phase0_gate_scan_attack.txt",
+  "evaluator_target_column_consumed": false,
+  "total_scan_ff": 256,
+  "query_count": 65,
+  "capture_schedules": [
+    1,
+    2,
+    3
+  ],
+  "aes_dependent_candidate_count": 101,
+  "pre_round_candidate_count": 55,
+  "mc_aware_candidate_count_overlap_ge_3": 1,
+  "repeat_stability_by_schedule": {
+    "1": true,
+    "2": true,
+    "3": true
+  },
+  "top_10_scan_slots": [
+    {
+      "scan_out_index": 255,
+      "first_active_capture_schedule": 1,
+      "active_schedules": [
+        1,
+        2,
+        3
+      ],
+      "reaction_plaintext_byte_support": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "nearest_mc_column": "C0",
+      "column_overlap": 4,
+      "exact_four_byte_support": true,
+      "start_activity_vs_no_start": true,
+      "repeat_stable": true,
+      "score": 13
+    },
+    {
+      "scan_out_index": 129,
+      "first_active_capture_schedule": 2,
+      "active_schedules": [
+        2,
+        3
+      ],
+      "reaction_plaintext_byte_support": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "nearest_mc_column": "C0",
+      "column_overlap": 4,
+      "exact_four_byte_support": true,
+      "start_activity_vs_no_start": true,
+      "repeat_stable": true,
+      "score": 11
+    },
+    {
+      "scan_out_index": 137,
+      "first_active_capture_schedule": 2,
+      "active_schedules": [
+        2,
+        3
+      ],
+      "reaction_plaintext_byte_support": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "nearest_mc_column": "C0",
+      "column_overlap": 4,
+      "exact_four_byte_support": true,
+      "start_activity_vs_no_start": true,
+      "repeat_stable": true,
+      "score": 11
+    },
+    {
+      "scan_out_index": 143,
+      "first_active_capture_schedule": 2,
+      "active_schedules": [
+        2,
+        3
+      ],
+      "reaction_plaintext_byte_support": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "nearest_mc_column": "C0",
+      "column_overlap": 4,
+      "exact_four_byte_support": true,
+      "start_activity_vs_no_start": true,
+      "repeat_stable": true,
+      "score": 11
+    },
+    {
+      "scan_out_index": 144,
+      "first_active_capture_schedule": 2,
+      "active_schedules": [
+        2,
+        3
+      ],
+      "reaction_plaintext_byte_support": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "nearest_mc_column": "C0",
+      "column_overlap": 4,
+      "exact_four_byte_support": true,
+      "start_activity_vs_no_start": true,
+      "repeat_stable": true,
+      "score": 11
+    },
+    {
+      "scan_out_index": 153,
+      "first_active_capture_schedule": 2,
+      "active_schedules": [
+        2,
+        3
+      ],
+      "reaction_plaintext_byte_support": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "nearest_mc_column": "C0",
+      "column_overlap": 4,
+      "exact_four_byte_support": true,
+      "start_activity_vs_no_start": true,
+      "repeat_stable": true,
+      "score": 11
+    },
+    {
+      "scan_out_index": 161,
+      "first_active_capture_schedule": 2,
+      "active_schedules": [
+        2,
+        3
+      ],
+      "reaction_plaintext_byte_support": [
+        3,
+        4,
+        9,
+        14
+      ],
+      "nearest_mc_column": "C1",
+      "column_overlap": 4,
+      "exact_four_byte_support": true,
+      "start_activity_vs_no_start": true,
+      "repeat_stable": true,
+      "score": 11
+    },
+    {
+      "scan_out_index": 170,
+      "first_active_capture_schedule": 2,
+      "active_schedules": [
+        2,
+        3
+      ],
+      "reaction_plaintext_byte_support": [
+        3,
+        4,
+        9,
+        14
+      ],
+      "nearest_mc_column": "C1",
+      "column_overlap": 4,
+      "exact_four_byte_support": true,
+      "start_activity_vs_no_start": true,
+      "repeat_stable": true,
+      "score": 11
+    },
+    {
+      "scan_out_index": 176,
+      "first_active_capture_schedule": 2,
+      "active_schedules": [
+        2,
+        3
+      ],
+      "reaction_plaintext_byte_support": [
+        3,
+        4,
+        9,
+        14
+      ],
+      "nearest_mc_column": "C1",
+      "column_overlap": 4,
+      "exact_four_byte_support": true,
+      "start_activity_vs_no_start": true,
+      "repeat_stable": true,
+      "score": 11
+    },
+    {
+      "scan_out_index": 183,
+      "first_active_capture_schedule": 2,
+      "active_schedules": [
+        2,
+        3
+      ],
+      "reaction_plaintext_byte_support": [
+        3,
+        4,
+        9,
+        14
+      ],
+      "nearest_mc_column": "C1",
+      "column_overlap": 4,
+      "exact_four_byte_support": true,
+      "start_activity_vs_no_start": true,
+      "repeat_stable": true,
+      "score": 11
+    }
+  ],
+  "final_selected_slot": {
+    "scan_out_index": 255,
+    "first_active_capture_schedule": 1,
+    "active_schedules": [
+      1,
+      2,
+      3
+    ],
+    "reaction_plaintext_byte_support": [
+      0,
+      5,
+      10,
+      15
+    ],
+    "nearest_mc_column": "C0",
+    "column_overlap": 4,
+    "exact_four_byte_support": true,
+    "start_activity_vs_no_start": true,
+    "repeat_stable": true,
+    "score": 13
+  },
+  "ground_truth_evaluator_check": "separate evaluator artifact; not used by discovery"
+}

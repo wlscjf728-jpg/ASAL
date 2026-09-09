@@ -1,0 +1,2 @@
+# Preserve original evidence bytes, including report spacing and CSV CRLF.
+evidence/source/** -text -whitespace

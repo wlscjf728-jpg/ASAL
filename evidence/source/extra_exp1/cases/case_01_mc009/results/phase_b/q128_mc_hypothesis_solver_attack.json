@@ -1,0 +1,247 @@
+{
+  "schema": "mc9-anonymous-function-attribution-solver-v1",
+  "input_transcript": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/extra_exp1/cases/case_01_mc009/results/phase_b/q128_mc_hypotheses_attack.json",
+  "sbox_encoding": "uf_axiom",
+  "initial_hypothesis_count": 32,
+  "branch_consistency": [
+    {
+      "hypothesis_id": "h00",
+      "status": "unsat",
+      "elapsed_seconds": 139.12296179798432,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h01",
+      "status": "unsat",
+      "elapsed_seconds": 0.15440394694451243,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h02",
+      "status": "unsat",
+      "elapsed_seconds": 2.2951517479959875,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h03",
+      "status": "unsat",
+      "elapsed_seconds": 1.3438523999648169,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h04",
+      "status": "unsat",
+      "elapsed_seconds": 0.870067797950469,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h05",
+      "status": "unsat",
+      "elapsed_seconds": 125.94117539201397,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h06",
+      "status": "unsat",
+      "elapsed_seconds": 0.5378584930440411,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h07",
+      "status": "unsat",
+      "elapsed_seconds": 1.9553127629915252,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h08",
+      "status": "unsat",
+      "elapsed_seconds": 1.1205821631010622,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h09",
+      "status": "sat",
+      "elapsed_seconds": 981.4080340210348,
+      "unknown_reason": "",
+      "model_hex": "a6bc656971597191ab438f849fc2b861"
+    },
+    {
+      "hypothesis_id": "h10",
+      "status": "unsat",
+      "elapsed_seconds": 3.0334163589868695,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h11",
+      "status": "unsat",
+      "elapsed_seconds": 1.0026894729817286,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h12",
+      "status": "unsat",
+      "elapsed_seconds": 1.4232486580731347,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h13",
+      "status": "unsat",
+      "elapsed_seconds": 27.32224556209985,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h14",
+      "status": "unsat",
+      "elapsed_seconds": 1.3592754290439188,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h15",
+      "status": "unsat",
+      "elapsed_seconds": 1.782647505053319,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h16",
+      "status": "unsat",
+      "elapsed_seconds": 0.4115007680375129,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h17",
+      "status": "unsat",
+      "elapsed_seconds": 2.6524822920328006,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h18",
+      "status": "unsat",
+      "elapsed_seconds": 0.09640183905139565,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h19",
+      "status": "unsat",
+      "elapsed_seconds": 1.3754916220204905,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h20",
+      "status": "unsat",
+      "elapsed_seconds": 1.0102816430153325,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h21",
+      "status": "unsat",
+      "elapsed_seconds": 0.8493912790436298,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h22",
+      "status": "unsat",
+      "elapsed_seconds": 15.254631853080355,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h23",
+      "status": "unsat",
+      "elapsed_seconds": 92.48483486601617,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h24",
+      "status": "unsat",
+      "elapsed_seconds": 0.5756053070072085,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h25",
+      "status": "unsat",
+      "elapsed_seconds": 1.7396309049800038,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h26",
+      "status": "unsat",
+      "elapsed_seconds": 214.4120502989972,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h27",
+      "status": "unsat",
+      "elapsed_seconds": 0.7833745480747893,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h28",
+      "status": "unsat",
+      "elapsed_seconds": 101.92047665501013,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h29",
+      "status": "unsat",
+      "elapsed_seconds": 0.21769151999615133,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h30",
+      "status": "unsat",
+      "elapsed_seconds": 1.8298737989971414,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h31",
+      "status": "unsat",
+      "elapsed_seconds": 1.4465414700098336,
+      "unknown_reason": ""
+    }
+  ],
+  "surviving_hypotheses": [
+    {
+      "hypothesis_id": "h09",
+      "stage": "MC",
+      "bit_index": 9,
+      "column": "C0",
+      "source_byte_support": [
+        0,
+        5,
+        10,
+        15
+      ],
+      "row": 1,
+      "bit_in_byte": 1
+    }
+  ],
+  "surviving_hypothesis_count": 1,
+  "joint_key_uniqueness": {
+    "first_result": "sat",
+    "second_result": "sat",
+    "first_time": 981.4080340210348,
+    "second_time": 576.3658903610194,
+    "first_model_hex": "a6bc656971597191ab438f849fc2b861",
+    "first_hypothesis_id": "h09",
+    "alternative_model": "a66f651322597191ab9f8f8af4c2db61",
+    "alternative_hypothesis_id": "h09",
+    "timeout": false,
+    "unknown": false,
+    "z3_reason_unknown": "",
+    "classification": "ambiguity",
+    "confirmed_unique_candidate": false,
+    "branch_key_exclusion": [
+      {
+        "hypothesis_id": "h09",
+        "status": "sat",
+        "elapsed_seconds": 575.0751738239778,
+        "unknown_reason": "",
+        "model_hex": "a66f651322597191ab9f8f8af4c2db61"
+      }
+    ],
+    "branch_workers": 1,
+    "key_exclusion_scope": "all_surviving_hypotheses"
+  },
+  "attack_used_ground_truth_mc9": false,
+  "attack_used_hidden_key": false,
+  "wall_time_seconds": 1560.5549469630932
+}

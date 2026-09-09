@@ -1,0 +1,247 @@
+{
+  "schema": "mc9-anonymous-function-attribution-solver-v1",
+  "input_transcript": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/extra_exp1/cases/case_06_mc082/results/phase_b/q128_mc_hypotheses_attack.json",
+  "sbox_encoding": "uf_axiom",
+  "initial_hypothesis_count": 32,
+  "branch_consistency": [
+    {
+      "hypothesis_id": "h00",
+      "status": "unsat",
+      "elapsed_seconds": 0.0475955200381577,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h01",
+      "status": "unsat",
+      "elapsed_seconds": 0.13084093003999442,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h02",
+      "status": "unsat",
+      "elapsed_seconds": 0.077924016979523,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h03",
+      "status": "unsat",
+      "elapsed_seconds": 0.08161373808979988,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h04",
+      "status": "unsat",
+      "elapsed_seconds": 0.12262425199151039,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h05",
+      "status": "unsat",
+      "elapsed_seconds": 0.07686780102085322,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h06",
+      "status": "unsat",
+      "elapsed_seconds": 0.08517420897260308,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h07",
+      "status": "unsat",
+      "elapsed_seconds": 0.091734076035209,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h08",
+      "status": "unsat",
+      "elapsed_seconds": 0.07461873907595873,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h09",
+      "status": "unsat",
+      "elapsed_seconds": 0.14350351493339986,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h10",
+      "status": "unsat",
+      "elapsed_seconds": 0.12790538393892348,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h11",
+      "status": "unsat",
+      "elapsed_seconds": 0.147615875932388,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h12",
+      "status": "unsat",
+      "elapsed_seconds": 0.32958097103983164,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h13",
+      "status": "unsat",
+      "elapsed_seconds": 0.056892849039286375,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h14",
+      "status": "unsat",
+      "elapsed_seconds": 0.13740436197258532,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h15",
+      "status": "unsat",
+      "elapsed_seconds": 0.10166513198055327,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h16",
+      "status": "unsat",
+      "elapsed_seconds": 0.058411888079717755,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h17",
+      "status": "unsat",
+      "elapsed_seconds": 0.04053409898187965,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h18",
+      "status": "sat",
+      "elapsed_seconds": 2708.6532973219873,
+      "unknown_reason": "",
+      "model_hex": "935b65f6170ba191ab60214fdec2a208"
+    },
+    {
+      "hypothesis_id": "h19",
+      "status": "unsat",
+      "elapsed_seconds": 0.038441200042143464,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h20",
+      "status": "unsat",
+      "elapsed_seconds": 0.1553209030535072,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h21",
+      "status": "unsat",
+      "elapsed_seconds": 0.06451232300605625,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h22",
+      "status": "unsat",
+      "elapsed_seconds": 0.07634159899316728,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h23",
+      "status": "unsat",
+      "elapsed_seconds": 0.0695622880011797,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h24",
+      "status": "unsat",
+      "elapsed_seconds": 0.06672458606772125,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h25",
+      "status": "unsat",
+      "elapsed_seconds": 0.07471204095054418,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h26",
+      "status": "unsat",
+      "elapsed_seconds": 0.0960568500449881,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h27",
+      "status": "unsat",
+      "elapsed_seconds": 0.13744821900036186,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h28",
+      "status": "unsat",
+      "elapsed_seconds": 0.14200099802110344,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h29",
+      "status": "unsat",
+      "elapsed_seconds": 0.08861626905854791,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h30",
+      "status": "unsat",
+      "elapsed_seconds": 0.05102923791855574,
+      "unknown_reason": ""
+    },
+    {
+      "hypothesis_id": "h31",
+      "status": "unsat",
+      "elapsed_seconds": 0.08063282002694905,
+      "unknown_reason": ""
+    }
+  ],
+  "surviving_hypotheses": [
+    {
+      "hypothesis_id": "h18",
+      "stage": "MC",
+      "bit_index": 82,
+      "column": "C2",
+      "source_byte_support": [
+        8,
+        13,
+        2,
+        7
+      ],
+      "row": 2,
+      "bit_in_byte": 2
+    }
+  ],
+  "surviving_hypothesis_count": 1,
+  "joint_key_uniqueness": {
+    "first_result": "sat",
+    "second_result": "sat",
+    "first_time": 2708.6532973219873,
+    "second_time": 4054.362677372992,
+    "first_model_hex": "935b65f6170ba191ab60214fdec2a208",
+    "first_hypothesis_id": "h18",
+    "alternative_model": "a69065ca22590991ab608f1d6bc2db61",
+    "alternative_hypothesis_id": "h18",
+    "timeout": false,
+    "unknown": false,
+    "z3_reason_unknown": "",
+    "classification": "ambiguity",
+    "confirmed_unique_candidate": false,
+    "branch_key_exclusion": [
+      {
+        "hypothesis_id": "h18",
+        "status": "sat",
+        "elapsed_seconds": 4052.953154267976,
+        "unknown_reason": "",
+        "model_hex": "a69065ca22590991ab608f1d6bc2db61"
+      }
+    ],
+    "branch_workers": 1,
+    "key_exclusion_scope": "all_surviving_hypotheses"
+  },
+  "attack_used_ground_truth_mc9": false,
+  "attack_used_hidden_key": false,
+  "wall_time_seconds": 6767.197067284025
+}

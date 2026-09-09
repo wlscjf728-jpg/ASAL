@@ -68,6 +68,10 @@ corresponding tools and private inputs are available.
 
 ## Provenance
 
+For paper-to-code and source-result links, see [the evidence guide](docs/EVIDENCE.md).
+`make evidence-verify` checks source-file hashes, gate input/result links,
+discovery handoff, tracking epochs, ATPG counts, and the 384-run recovery records.
+
 - Original source root: `/srscl/home/jcjeong/Research/Scan_Secure/experiments`
 - Latest DFT source: `experiments/RTL1_DFT_RESTUDY`
 - Gate-level case06 canonical status: the adaptive loop reaches Q135 with

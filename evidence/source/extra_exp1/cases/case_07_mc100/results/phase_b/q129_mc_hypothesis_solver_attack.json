@@ -1,0 +1,60 @@
+{
+  "schema": "mc9-anonymous-function-attribution-solver-v1",
+  "input_transcript": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/extra_exp1/cases/case_07_mc100/results/phase_b/q129_mc_hypotheses_attack_pruned.json",
+  "sbox_encoding": "uf_axiom",
+  "initial_hypothesis_count": 1,
+  "branch_consistency": [
+    {
+      "hypothesis_id": "h04",
+      "status": "sat",
+      "elapsed_seconds": 1250.7729297640035,
+      "unknown_reason": "",
+      "model_hex": "a66f651322597191ab9f8f8af4c2db61"
+    }
+  ],
+  "surviving_hypotheses": [
+    {
+      "hypothesis_id": "h04",
+      "stage": "MC",
+      "bit_index": 100,
+      "column": "C3",
+      "source_byte_support": [
+        12,
+        1,
+        6,
+        11
+      ],
+      "row": 0,
+      "bit_in_byte": 4
+    }
+  ],
+  "surviving_hypothesis_count": 1,
+  "joint_key_uniqueness": {
+    "first_result": "sat",
+    "second_result": "unsat",
+    "first_time": 1250.7729297640035,
+    "second_time": 435.19061582395807,
+    "first_model_hex": "a66f651322597191ab9f8f8af4c2db61",
+    "first_hypothesis_id": "h04",
+    "alternative_model": "",
+    "alternative_hypothesis_id": "",
+    "timeout": false,
+    "unknown": false,
+    "z3_reason_unknown": "",
+    "classification": "full_key_unique",
+    "confirmed_unique_candidate": true,
+    "branch_key_exclusion": [
+      {
+        "hypothesis_id": "h04",
+        "status": "unsat",
+        "elapsed_seconds": 434.7233974329429,
+        "unknown_reason": ""
+      }
+    ],
+    "branch_workers": 1,
+    "key_exclusion_scope": "all_surviving_hypotheses"
+  },
+  "attack_used_ground_truth_mc9": false,
+  "attack_used_hidden_key": false,
+  "wall_time_seconds": 1687.280073754955
+}

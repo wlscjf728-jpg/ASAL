@@ -1,0 +1,2018 @@
+{
+  "schema": "aes-sparse-gate-hypothesis-bridge-v1",
+  "experiment": {
+    "depth": 2,
+    "mode": "differential",
+    "base_query_id": 0,
+    "hypothesis_family": "MC_output_bit_within_C3",
+    "hypotheses": [
+      {
+        "hypothesis_id": "h00",
+        "stage": "MC",
+        "bit_index": 96,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 0,
+        "bit_in_byte": 0
+      },
+      {
+        "hypothesis_id": "h01",
+        "stage": "MC",
+        "bit_index": 97,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 0,
+        "bit_in_byte": 1
+      },
+      {
+        "hypothesis_id": "h02",
+        "stage": "MC",
+        "bit_index": 98,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 0,
+        "bit_in_byte": 2
+      },
+      {
+        "hypothesis_id": "h03",
+        "stage": "MC",
+        "bit_index": 99,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 0,
+        "bit_in_byte": 3
+      },
+      {
+        "hypothesis_id": "h04",
+        "stage": "MC",
+        "bit_index": 100,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 0,
+        "bit_in_byte": 4
+      },
+      {
+        "hypothesis_id": "h05",
+        "stage": "MC",
+        "bit_index": 101,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 0,
+        "bit_in_byte": 5
+      },
+      {
+        "hypothesis_id": "h06",
+        "stage": "MC",
+        "bit_index": 102,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 0,
+        "bit_in_byte": 6
+      },
+      {
+        "hypothesis_id": "h07",
+        "stage": "MC",
+        "bit_index": 103,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 0,
+        "bit_in_byte": 7
+      },
+      {
+        "hypothesis_id": "h08",
+        "stage": "MC",
+        "bit_index": 104,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 1,
+        "bit_in_byte": 0
+      },
+      {
+        "hypothesis_id": "h09",
+        "stage": "MC",
+        "bit_index": 105,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 1,
+        "bit_in_byte": 1
+      },
+      {
+        "hypothesis_id": "h10",
+        "stage": "MC",
+        "bit_index": 106,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 1,
+        "bit_in_byte": 2
+      },
+      {
+        "hypothesis_id": "h11",
+        "stage": "MC",
+        "bit_index": 107,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 1,
+        "bit_in_byte": 3
+      },
+      {
+        "hypothesis_id": "h12",
+        "stage": "MC",
+        "bit_index": 108,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 1,
+        "bit_in_byte": 4
+      },
+      {
+        "hypothesis_id": "h13",
+        "stage": "MC",
+        "bit_index": 109,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 1,
+        "bit_in_byte": 5
+      },
+      {
+        "hypothesis_id": "h14",
+        "stage": "MC",
+        "bit_index": 110,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 1,
+        "bit_in_byte": 6
+      },
+      {
+        "hypothesis_id": "h15",
+        "stage": "MC",
+        "bit_index": 111,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 1,
+        "bit_in_byte": 7
+      },
+      {
+        "hypothesis_id": "h16",
+        "stage": "MC",
+        "bit_index": 112,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 2,
+        "bit_in_byte": 0
+      },
+      {
+        "hypothesis_id": "h17",
+        "stage": "MC",
+        "bit_index": 113,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 2,
+        "bit_in_byte": 1
+      },
+      {
+        "hypothesis_id": "h18",
+        "stage": "MC",
+        "bit_index": 114,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 2,
+        "bit_in_byte": 2
+      },
+      {
+        "hypothesis_id": "h19",
+        "stage": "MC",
+        "bit_index": 115,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 2,
+        "bit_in_byte": 3
+      },
+      {
+        "hypothesis_id": "h20",
+        "stage": "MC",
+        "bit_index": 116,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 2,
+        "bit_in_byte": 4
+      },
+      {
+        "hypothesis_id": "h21",
+        "stage": "MC",
+        "bit_index": 117,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 2,
+        "bit_in_byte": 5
+      },
+      {
+        "hypothesis_id": "h22",
+        "stage": "MC",
+        "bit_index": 118,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 2,
+        "bit_in_byte": 6
+      },
+      {
+        "hypothesis_id": "h23",
+        "stage": "MC",
+        "bit_index": 119,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 2,
+        "bit_in_byte": 7
+      },
+      {
+        "hypothesis_id": "h24",
+        "stage": "MC",
+        "bit_index": 120,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 3,
+        "bit_in_byte": 0
+      },
+      {
+        "hypothesis_id": "h25",
+        "stage": "MC",
+        "bit_index": 121,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 3,
+        "bit_in_byte": 1
+      },
+      {
+        "hypothesis_id": "h26",
+        "stage": "MC",
+        "bit_index": 122,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 3,
+        "bit_in_byte": 2
+      },
+      {
+        "hypothesis_id": "h27",
+        "stage": "MC",
+        "bit_index": 123,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 3,
+        "bit_in_byte": 3
+      },
+      {
+        "hypothesis_id": "h28",
+        "stage": "MC",
+        "bit_index": 124,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 3,
+        "bit_in_byte": 4
+      },
+      {
+        "hypothesis_id": "h29",
+        "stage": "MC",
+        "bit_index": 125,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 3,
+        "bit_in_byte": 5
+      },
+      {
+        "hypothesis_id": "h30",
+        "stage": "MC",
+        "bit_index": 126,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 3,
+        "bit_in_byte": 6
+      },
+      {
+        "hypothesis_id": "h31",
+        "stage": "MC",
+        "bit_index": 127,
+        "column": "C3",
+        "source_byte_support": [
+          12,
+          1,
+          6,
+          11
+        ],
+        "row": 3,
+        "bit_in_byte": 7
+      }
+    ],
+    "source": {
+      "scan_slot": 255,
+      "schedule_to_round": {
+        "1": 1,
+        "3": 2
+      },
+      "anonymous_input": true,
+      "ground_truth_semantic_label_provided": false
+    }
+  },
+  "observations": [
+    {
+      "query_id": 0,
+      "plaintext_hex": "00000000000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 1,
+      "plaintext_hex": "0000000000000000000000008f000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 2,
+      "plaintext_hex": "000000000000000000d3000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 3,
+      "plaintext_hex": "00000000000000d10000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 4,
+      "plaintext_hex": "00005100000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 5,
+      "plaintext_hex": "00000000000000000000000000003b00",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 6,
+      "plaintext_hex": "00000000240000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 7,
+      "plaintext_hex": "96000000000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 8,
+      "plaintext_hex": "00b60000000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 9,
+      "plaintext_hex": "00000000000000df0000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 10,
+      "plaintext_hex": "00000000000000008c00000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 11,
+      "plaintext_hex": "00000000008a00000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 12,
+      "plaintext_hex": "00000000000000cc0000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 13,
+      "plaintext_hex": "00000000000000000000000000c40000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 14,
+      "plaintext_hex": "000000b0000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 15,
+      "plaintext_hex": "00000900000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 16,
+      "plaintext_hex": "0000000000000000002b000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 17,
+      "plaintext_hex": "0000001f000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 18,
+      "plaintext_hex": "00000000000000080000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 19,
+      "plaintext_hex": "00000000000000001600000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 20,
+      "plaintext_hex": "0000000000dc00000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 21,
+      "plaintext_hex": "00000000000000000000000000005400",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 22,
+      "plaintext_hex": "00000000000000000000000000000026",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 23,
+      "plaintext_hex": "0000000000000000000000a400000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 24,
+      "plaintext_hex": "00000000002d00000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 25,
+      "plaintext_hex": "00000000000000000000000000f30000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 26,
+      "plaintext_hex": "000000e4000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 27,
+      "plaintext_hex": "00000000e00000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 28,
+      "plaintext_hex": "000000000000000000000000ab000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 29,
+      "plaintext_hex": "53000000000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 30,
+      "plaintext_hex": "00000000005200000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 31,
+      "plaintext_hex": "00000000000000000000000031000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 32,
+      "plaintext_hex": "0000b500000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 33,
+      "plaintext_hex": "00000000000000003300000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 34,
+      "plaintext_hex": "0000005a000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 35,
+      "plaintext_hex": "00001e00000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 36,
+      "plaintext_hex": "00000035000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 37,
+      "plaintext_hex": "00470000000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 38,
+      "plaintext_hex": "000000000000000000e8000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 39,
+      "plaintext_hex": "00000000000040000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 40,
+      "plaintext_hex": "000000000000000000000000003f0000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 41,
+      "plaintext_hex": "00000093000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 42,
+      "plaintext_hex": "0000000000000000000000000000001b",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 43,
+      "plaintext_hex": "8b000000000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 44,
+      "plaintext_hex": "00000000000000007400000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 45,
+      "plaintext_hex": "00000000000000007700000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 46,
+      "plaintext_hex": "00000000000000a20000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 47,
+      "plaintext_hex": "00000000000000000000000000000086",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 48,
+      "plaintext_hex": "00e00000000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 49,
+      "plaintext_hex": "00000000000000005d00000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 50,
+      "plaintext_hex": "00000000000014000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 51,
+      "plaintext_hex": "000000000000000000000000000000b4",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 52,
+      "plaintext_hex": "00002700000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 53,
+      "plaintext_hex": "00000000740000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 54,
+      "plaintext_hex": "000000000000dc000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 55,
+      "plaintext_hex": "00000000c70000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 56,
+      "plaintext_hex": "00000000000000000000000000000029",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 57,
+      "plaintext_hex": "0000000000000000000000005d000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 58,
+      "plaintext_hex": "0000bb00000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 59,
+      "plaintext_hex": "000000000000000000009e0000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 60,
+      "plaintext_hex": "0000a400000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 61,
+      "plaintext_hex": "00000000000000006a00000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 62,
+      "plaintext_hex": "0000000000000000000000000000f000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 63,
+      "plaintext_hex": "000000000000000000002e0000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 64,
+      "plaintext_hex": "00000071000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 65,
+      "plaintext_hex": "00000000000000000000004400000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 66,
+      "plaintext_hex": "00000000000084000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 67,
+      "plaintext_hex": "00000000000000000000000000008100",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 68,
+      "plaintext_hex": "00000000000000000000400000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 69,
+      "plaintext_hex": "00000000000000000075000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 70,
+      "plaintext_hex": "00000000000000150000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 71,
+      "plaintext_hex": "0000000000a600000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 72,
+      "plaintext_hex": "000000000000009d0000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 73,
+      "plaintext_hex": "00000000000000000093000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 74,
+      "plaintext_hex": "0000000000000000000000fb00000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 75,
+      "plaintext_hex": "0000000000000000db00000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 76,
+      "plaintext_hex": "000000000000bd000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 77,
+      "plaintext_hex": "00000000000000ff0000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 78,
+      "plaintext_hex": "00000000700000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 79,
+      "plaintext_hex": "0000000000000000d500000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 80,
+      "plaintext_hex": "00000000000000000000000000000021",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 81,
+      "plaintext_hex": "00000000de0000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 82,
+      "plaintext_hex": "00000000000000040000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 83,
+      "plaintext_hex": "00000000000000000000000000dd0000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 84,
+      "plaintext_hex": "00000000006300000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 85,
+      "plaintext_hex": "00000000000000000000300000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 86,
+      "plaintext_hex": "00000000000000000053000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 87,
+      "plaintext_hex": "00000000000000d70000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 88,
+      "plaintext_hex": "63000000000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 89,
+      "plaintext_hex": "000000000000000000000000b5000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 90,
+      "plaintext_hex": "0000000000000000000000000000c300",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 91,
+      "plaintext_hex": "000000000000000000000000b7000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 92,
+      "plaintext_hex": "000000004f0000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 93,
+      "plaintext_hex": "0000000000fd00000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 94,
+      "plaintext_hex": "0000ef00000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 95,
+      "plaintext_hex": "00000000540000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 96,
+      "plaintext_hex": "00003900000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 97,
+      "plaintext_hex": "0000000000000000000000a900000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 98,
+      "plaintext_hex": "000000004e0000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 99,
+      "plaintext_hex": "00001c00000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 100,
+      "plaintext_hex": "00000000b60000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 101,
+      "plaintext_hex": "0000000000000000000000005e000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 102,
+      "plaintext_hex": "00000000000000100000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 103,
+      "plaintext_hex": "00000000000000000000f70000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 104,
+      "plaintext_hex": "000000cd000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 105,
+      "plaintext_hex": "000000000000006b0000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 106,
+      "plaintext_hex": "007d0000000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 107,
+      "plaintext_hex": "000000000000000000c9000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 108,
+      "plaintext_hex": "00000000002400000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 109,
+      "plaintext_hex": "0000000000d600000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 110,
+      "plaintext_hex": "00006700000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 111,
+      "plaintext_hex": "0000af00000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 112,
+      "plaintext_hex": "00000000000000000000002000000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 113,
+      "plaintext_hex": "000000000000000000000000b4000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 114,
+      "plaintext_hex": "00000000660000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 115,
+      "plaintext_hex": "00000000000000000000000000001f00",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 116,
+      "plaintext_hex": "00000000000000000000000000080000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 117,
+      "plaintext_hex": "00000000000000000000000000003500",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 118,
+      "plaintext_hex": "000000000000000000000000000000df",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 119,
+      "plaintext_hex": "0000000000000000000000bc00000000",
+      "rounds": {
+        "1": {
+          "differential": 1
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 120,
+      "plaintext_hex": "00000000000000003e00000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 121,
+      "plaintext_hex": "00000000000000007300000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 122,
+      "plaintext_hex": "00004b00000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 123,
+      "plaintext_hex": "000000000000000000009c0000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 124,
+      "plaintext_hex": "f4000000000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 125,
+      "plaintext_hex": "00b70000000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 126,
+      "plaintext_hex": "00000000000000003600000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    },
+    {
+      "query_id": 127,
+      "plaintext_hex": "0000009a000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 1
+        }
+      }
+    },
+    {
+      "query_id": 128,
+      "plaintext_hex": "00005f00000000000000000000000000",
+      "rounds": {
+        "1": {
+          "differential": 0
+        },
+        "2": {
+          "differential": 0
+        }
+      }
+    }
+  ]
+}

@@ -1,0 +1,21 @@
+case,placement,mode,status,detected,possibly_detected,undetectable,atpg_untestable,not_detected,total_faults,coverage_pct,patterns,class_sum,source_detail_rows,detail_note
+CASE_IARK,IARK,transition,PASS,2346,0,1,70519,0,72866,3.22,7,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_SB,SB,transition,PASS,2391,0,1,70474,0,72866,3.28,8,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_SR,SR,transition,PASS,2350,0,1,70515,0,72866,3.23,7,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MC,MC,transition,PASS,2502,0,1,70363,0,72866,3.43,10,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed01,RANDOM_STAGE,transition,PASS,2464,0,1,70401,0,72866,3.38,15,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed02,RANDOM_STAGE,transition,PASS,2487,0,1,70378,0,72866,3.41,15,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed03,RANDOM_STAGE,transition,PASS,2493,0,1,70372,0,72866,3.42,17,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed04,RANDOM_STAGE,transition,PASS,2493,0,1,70372,0,72866,3.42,16,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed05,RANDOM_STAGE,transition,PASS,2491,0,1,70374,0,72866,3.42,16,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed06,RANDOM_STAGE,transition,PASS,2485,0,1,70380,0,72866,3.41,14,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed07,RANDOM_STAGE,transition,PASS,2447,0,1,70418,0,72866,3.36,15,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed08,RANDOM_STAGE,transition,PASS,2470,0,1,70395,0,72866,3.39,15,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed09,RANDOM_STAGE,transition,PASS,2465,0,1,70400,0,72866,3.38,16,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_RANDOM_STAGE_seed10,RANDOM_STAGE,transition,PASS,2457,0,1,70408,0,72866,3.37,16,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MIX_MC_000,MIX_MC,transition,PASS,2346,0,1,70519,0,72866,3.22,8,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MIX_MC_032,MIX_MC,transition,PASS,2398,0,1,70467,0,72866,3.29,11,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MIX_MC_064,MIX_MC,transition,PASS,2436,0,1,70429,0,72866,3.34,6,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MIX_MC_096,MIX_MC,transition,PASS,2470,0,1,70395,0,72866,3.39,10,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_MIX_MC_128,MIX_MC,transition,PASS,2502,0,1,70363,0,72866,3.43,9,72866,72866,source statuses retained separately; final site status unavailable from global dump
+CASE_AUTO_STAGE,AUTO_STAGE,transition,PASS,2346,0,1,70519,0,72866,3.22,8,72866,72866,source statuses retained separately; final site status unavailable from global dump
