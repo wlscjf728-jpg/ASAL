@@ -24,7 +24,34 @@ make key-diversity-smoke
 make tracking
 ```
 
-Run the lightweight one-bit reproduction in two resumable stages:
+The complete one-bit campaign uses 128 positions × 3 seeds, with 64 workers.
+The recorded results contain 249 fixed-Q128 recoveries and 135 adaptive
+recoveries: Q129: 64, Q130: 17, Q131: 23, Q132: 17, Q133: 10, Q134: 4.
+These are the results of the bundled manifest and seeds.
+
+```bash
+make one-bit-384-verify
+make one-bit-384-dry-run
+make one-bit-384
+```
+
+`scripts/paper384.py` executes `run_late1bit_fixed_paper384.py`, validates all
+384 baseline identities, then executes `run_late1bit_pair_rescue_paper384.py`
+on the ambiguous runs and checks that every selected run recovered its key.
+Both scripts and their `*_paper384.yaml` configs are in the Attack 8 directory.
+Each free worker takes the next queued task. Set `ASAL_WORKERS=16` to reduce
+parallelism. Solver timeouts are unlimited.
+
+Reference JSON records live in Attack 8's
+`results/paper384_late_1bit_fixed_q128_runs/` and
+`results/paper384_late_1bit_pair_rescue_runs/`. Fresh solver outputs are written
+to `run-output/paper384/`. Run the same command to resume, or use
+`python scripts/paper384.py --output-root run-output/another-run` for a separate
+run. The verification command checks recorded results, not a new solver proof.
+Query counts exclude the shared reference plaintext; Q128 uses 129 oracle
+encryptions. Adaptive queries are added to that same baseline.
+
+The 96-run lightweight subset is also available in two resumable stages:
 
 ```bash
 make one-bit-96-dry-run

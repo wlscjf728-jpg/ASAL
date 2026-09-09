@@ -11,16 +11,16 @@ entry points for smoke tests and resumable runs.
 | Level | Command | Needs |
 |---|---|---|
 | Software smoke | `make smoke` | Python 3.10+, `requirements.txt` |
+| 384-run one-bit reproduction | `make one-bit-384-dry-run` / `make one-bit-384` | Python dependencies, up to 64 workers |
 | 96-run lightweight one-bit reproduction | `make one-bit-96-dry-run` / `make one-bit-96` | Z3, cvc5, several CPU cores |
 | Discovery / key diversity / tracking | `make discovery-smoke`, `make key-diversity-smoke`, `make tracking` | Python dependencies |
 | RTL/gate-level | `make gate-smoke` | VCS/Design Compiler artifacts and local evaluator inputs |
 | Latest DFT | `make dft-prepare` / `make dft-run` | Synopsys Design Compiler/TetraMAX and licensed RTL/netlist inputs |
 
-The 96-run campaign is deliberately a lightweight reproduction of the paper's
-384-run one-bit sweep: 32 positions × 3 seeds, with the same fixed-q128 and
-adaptive pair-rescue code path. It is not a replacement for the paper-scale
-claim. The campaign metadata records the expansion target as 128 positions × 3
-seeds.
+The 384-run campaign covers 128 positions (64 MC and 64 ARK) × 3 seeds.
+All 384 runs recover the key: 249 at fixed Q128 and 135 through adaptive
+pair-rescue at Q129–Q134. Execution scripts, the position manifest and terminal
+JSON results are included. The 96-run campaign is available as a lightweight subset.
 
 ## Quick start
 
@@ -30,8 +30,12 @@ python3 -m venv .venv
 . .venv/bin/activate
 python -m pip install -r requirements.txt
 make smoke
-make one-bit-96-dry-run
+make one-bit-384-dry-run
 ```
+
+`make one-bit-384` runs fixed Q128 followed by ambiguity-only adaptive recovery,
+with up to 64 workers. Outputs go to `run-output/paper384/`; rerunning resumes
+that directory. `make one-bit-384-verify` checks bundled completion records.
 
 `make one-bit-96` is resumable. It runs the fixed q128 baseline first and then
 uses the 32 q128 ambiguity rows as input to the adaptive pair-rescue stage.

@@ -1,0 +1,17 @@
+campaign:
+  workers: 64
+  seeds: [0, 1, 2]
+attack:
+  depth: 2
+  mode: differential
+  query_count: 128
+solver:
+  first_timeout_ms: 0
+  second_timeout_ms: 0
+  diagnostic_timeout_ms: 0
+  sbox_encoding: uf_axiom
+paths:
+  manifest: configs/late_1bit_positions_paper384.csv
+  result_dir: results/paper384_late_1bit_fixed_q128_runs
+  summary: results/paper384_late_1bit_fixed_q128_summary.jsonl
+  errors: logs/paper384_late_1bit_fixed_q128_errors.jsonl
