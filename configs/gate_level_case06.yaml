@@ -10,5 +10,5 @@ artifact_verification: verified_against_original_q135_solver_artifact
 observed_snapshot_status: q135_solver_artifact_complete
 
 adaptive_terminal_sequence: Q133_SAT_SAT -> Q134_SAT_SAT -> Q135_SAT_UNSAT
-source_artifact_relative_path: experiments/extra_exp1/cases/case_06_mc082/results/phase_b/q135_mc_hypothesis_solver_attack.json
+source_artifact_relative_path: experiments/gate_topologies/cases/case_06_mc082/results/phase_b/q135_mc_hypothesis_solver_attack.json
 source_artifact_sha256: c69c35a60a168ad0478cb5b43e2050eba081d73342951b1aac4f215e4d3e01d3

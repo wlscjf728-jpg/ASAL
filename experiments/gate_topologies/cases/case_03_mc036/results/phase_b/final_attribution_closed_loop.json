@@ -1,0 +1,14 @@
+{
+  "case_name": "case_03_mc036",
+  "selected_slot": 255,
+  "column": "C1",
+  "surviving_hypothesis_count": 1,
+  "surviving_hypothesis_id": "h04",
+  "fixed_query_count": 128,
+  "final_query_count": 129,
+  "final_classification": "full_key_unique",
+  "recovered_key": "a66f651322597191ab9f8f8af4c2db61",
+  "hidden_key": "a66f651322597191ab9f8f8af4c2db61",
+  "final_key_match": true,
+  "elapsed_seconds": 20983.647439956665
+}

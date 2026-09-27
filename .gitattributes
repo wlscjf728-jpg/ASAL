@@ -1,2 +1,4 @@
 # Preserve original evidence bytes, including report spacing and CSV CRLF.
 evidence/source/** -text -whitespace
+# Preserve original EDA report formatting in explicitly bundled test inputs.
+experiments/gate_topologies/cases/*/results/evaluator/scan_path.rpt -text -whitespace

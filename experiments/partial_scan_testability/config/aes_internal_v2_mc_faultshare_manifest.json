@@ -1,0 +1,242 @@
+{
+  "revision": 1,
+  "design": "AES-internal fixed-size SB-to-MC fault-share sweep",
+  "scan_manifests_unchanged": true,
+  "source_entries_per_level": 4000,
+  "direct_ff_excluded_by_source": true,
+  "selection": "deterministic SHA256 ranking within each structural region",
+  "seed": 20260903,
+  "fixed_regions": {
+    "IARK_CONE": 107,
+    "SR_CONE": 59,
+    "AES_CONTROL": 0,
+    "AES_OTHER": 312
+  },
+  "exchange": "SB_CONE entries are removed as MC_CONE entries are added",
+  "levels": {
+    "stuck": {
+      "mc0314": {
+        "counts": {
+          "IARK_CONE": 107,
+          "SR_CONE": 59,
+          "AES_CONTROL": 0,
+          "AES_OTHER": 312,
+          "SB_CONE": 3208,
+          "MC_CONE": 314
+        },
+        "source_entries": 4000,
+        "mc_fraction_pct": 7.85,
+        "sb_fraction_pct": 80.2,
+        "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_faultshare_mc0314_stuck.list",
+        "candidate_entries": {
+          "IARK_CONE": 1954,
+          "SB_CONE": 58568,
+          "SR_CONE": 1076,
+          "MC_CONE": 5720,
+          "AES_CONTROL": 8,
+          "AES_OTHER": 5696
+        }
+      },
+      "mc0800": {
+        "counts": {
+          "IARK_CONE": 107,
+          "SR_CONE": 59,
+          "AES_CONTROL": 0,
+          "AES_OTHER": 312,
+          "SB_CONE": 2722,
+          "MC_CONE": 800
+        },
+        "source_entries": 4000,
+        "mc_fraction_pct": 20.0,
+        "sb_fraction_pct": 68.05,
+        "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_faultshare_mc0800_stuck.list",
+        "candidate_entries": {
+          "IARK_CONE": 1954,
+          "SB_CONE": 58568,
+          "SR_CONE": 1076,
+          "MC_CONE": 5720,
+          "AES_CONTROL": 8,
+          "AES_OTHER": 5696
+        }
+      },
+      "mc1600": {
+        "counts": {
+          "IARK_CONE": 107,
+          "SR_CONE": 59,
+          "AES_CONTROL": 0,
+          "AES_OTHER": 312,
+          "SB_CONE": 1922,
+          "MC_CONE": 1600
+        },
+        "source_entries": 4000,
+        "mc_fraction_pct": 40.0,
+        "sb_fraction_pct": 48.05,
+        "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_faultshare_mc1600_stuck.list",
+        "candidate_entries": {
+          "IARK_CONE": 1954,
+          "SB_CONE": 58568,
+          "SR_CONE": 1076,
+          "MC_CONE": 5720,
+          "AES_CONTROL": 8,
+          "AES_OTHER": 5696
+        }
+      },
+      "mc2400": {
+        "counts": {
+          "IARK_CONE": 107,
+          "SR_CONE": 59,
+          "AES_CONTROL": 0,
+          "AES_OTHER": 312,
+          "SB_CONE": 1122,
+          "MC_CONE": 2400
+        },
+        "source_entries": 4000,
+        "mc_fraction_pct": 60.0,
+        "sb_fraction_pct": 28.05,
+        "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_faultshare_mc2400_stuck.list",
+        "candidate_entries": {
+          "IARK_CONE": 1954,
+          "SB_CONE": 58568,
+          "SR_CONE": 1076,
+          "MC_CONE": 5720,
+          "AES_CONTROL": 8,
+          "AES_OTHER": 5696
+        }
+      },
+      "mc3200": {
+        "counts": {
+          "IARK_CONE": 107,
+          "SR_CONE": 59,
+          "AES_CONTROL": 0,
+          "AES_OTHER": 312,
+          "SB_CONE": 322,
+          "MC_CONE": 3200
+        },
+        "source_entries": 4000,
+        "mc_fraction_pct": 80.0,
+        "sb_fraction_pct": 8.05,
+        "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_faultshare_mc3200_stuck.list",
+        "candidate_entries": {
+          "IARK_CONE": 1954,
+          "SB_CONE": 58568,
+          "SR_CONE": 1076,
+          "MC_CONE": 5720,
+          "AES_CONTROL": 8,
+          "AES_OTHER": 5696
+        }
+      }
+    },
+    "transition": {
+      "mc0314": {
+        "counts": {
+          "IARK_CONE": 107,
+          "SR_CONE": 59,
+          "AES_CONTROL": 0,
+          "AES_OTHER": 312,
+          "SB_CONE": 3208,
+          "MC_CONE": 314
+        },
+        "source_entries": 4000,
+        "mc_fraction_pct": 7.85,
+        "sb_fraction_pct": 80.2,
+        "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_faultshare_mc0314_transition.list",
+        "candidate_entries": {
+          "IARK_CONE": 1954,
+          "SB_CONE": 58568,
+          "SR_CONE": 1076,
+          "MC_CONE": 5720,
+          "AES_CONTROL": 8,
+          "AES_OTHER": 5696
+        }
+      },
+      "mc0800": {
+        "counts": {
+          "IARK_CONE": 107,
+          "SR_CONE": 59,
+          "AES_CONTROL": 0,
+          "AES_OTHER": 312,
+          "SB_CONE": 2722,
+          "MC_CONE": 800
+        },
+        "source_entries": 4000,
+        "mc_fraction_pct": 20.0,
+        "sb_fraction_pct": 68.05,
+        "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_faultshare_mc0800_transition.list",
+        "candidate_entries": {
+          "IARK_CONE": 1954,
+          "SB_CONE": 58568,
+          "SR_CONE": 1076,
+          "MC_CONE": 5720,
+          "AES_CONTROL": 8,
+          "AES_OTHER": 5696
+        }
+      },
+      "mc1600": {
+        "counts": {
+          "IARK_CONE": 107,
+          "SR_CONE": 59,
+          "AES_CONTROL": 0,
+          "AES_OTHER": 312,
+          "SB_CONE": 1922,
+          "MC_CONE": 1600
+        },
+        "source_entries": 4000,
+        "mc_fraction_pct": 40.0,
+        "sb_fraction_pct": 48.05,
+        "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_faultshare_mc1600_transition.list",
+        "candidate_entries": {
+          "IARK_CONE": 1954,
+          "SB_CONE": 58568,
+          "SR_CONE": 1076,
+          "MC_CONE": 5720,
+          "AES_CONTROL": 8,
+          "AES_OTHER": 5696
+        }
+      },
+      "mc2400": {
+        "counts": {
+          "IARK_CONE": 107,
+          "SR_CONE": 59,
+          "AES_CONTROL": 0,
+          "AES_OTHER": 312,
+          "SB_CONE": 1122,
+          "MC_CONE": 2400
+        },
+        "source_entries": 4000,
+        "mc_fraction_pct": 60.0,
+        "sb_fraction_pct": 28.05,
+        "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_faultshare_mc2400_transition.list",
+        "candidate_entries": {
+          "IARK_CONE": 1954,
+          "SB_CONE": 58568,
+          "SR_CONE": 1076,
+          "MC_CONE": 5720,
+          "AES_CONTROL": 8,
+          "AES_OTHER": 5696
+        }
+      },
+      "mc3200": {
+        "counts": {
+          "IARK_CONE": 107,
+          "SR_CONE": 59,
+          "AES_CONTROL": 0,
+          "AES_OTHER": 312,
+          "SB_CONE": 322,
+          "MC_CONE": 3200
+        },
+        "source_entries": 4000,
+        "mc_fraction_pct": 80.0,
+        "sb_fraction_pct": 8.05,
+        "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_faultshare_mc3200_transition.list",
+        "candidate_entries": {
+          "IARK_CONE": 1954,
+          "SB_CONE": 58568,
+          "SR_CONE": 1076,
+          "MC_CONE": 5720,
+          "AES_CONTROL": 8,
+          "AES_OTHER": 5696
+        }
+      }
+    }
+  }
+}

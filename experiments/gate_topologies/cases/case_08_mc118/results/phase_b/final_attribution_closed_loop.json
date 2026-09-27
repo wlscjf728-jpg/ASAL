@@ -1,0 +1,14 @@
+{
+  "case_name": "case_08_mc118",
+  "selected_slot": 255,
+  "column": "C3",
+  "surviving_hypothesis_count": 1,
+  "surviving_hypothesis_id": "h22",
+  "fixed_query_count": 128,
+  "final_query_count": 129,
+  "final_classification": "full_key_unique",
+  "recovered_key": "a66f651322597191ab9f8f8af4c2db61",
+  "hidden_key": "a66f651322597191ab9f8f8af4c2db61",
+  "final_key_match": true,
+  "elapsed_seconds": 9009.543954849243
+}

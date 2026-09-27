@@ -1,19 +1,21 @@
 schema: asal-reproduction-campaigns-v1
-source_root: /srscl/home/jcjeong/Research/Scan_Secure/experiments
+source_root: experiments
 campaigns:
   one_bit_384_paper_scope:
-    role: canonical_paper_scope
+    role: bundled_reference_sweep
     positions: 128
     runs_per_position: 3
     total_runs: 384
     executable_here: true
     status: complete
     workers: 64
+    wrapper_default_workers: 4
+    worker_limit: 64
     fixed_q128_unique: 249
     adaptive_rescue_cases: 135
     recovered_runs: 384
     adaptive_final_queries: {129: 64, 130: 17, 131: 23, 132: 17, 133: 10, 134: 4}
-    source: experiments/anonymous_subround_multiround_attack_8_oracle
+    source: experiments/temporal_key_recovery
   one_bit_96_lightweight:
     role: lightweight_reproduction
     subset_of: one_bit_384_paper_scope
@@ -22,23 +24,23 @@ campaigns:
     total_runs: 96
     adaptive_rescue_cases: 32
     expansion_factor: 4
-    source: experiments/anonymous_subround_multiround_attack_8_oracle
+    source: experiments/temporal_key_recovery
   discovery_32_plus_8:
     role: software_reproduction
-    source: experiments/anonymous_subround_multiround_attack_Leakage_Channel_Discovery
+    source: experiments/channel_discovery
   key_diversity_80:
     role: software_reproduction
-    source: experiments/anonymous_subround_multiround_attack_key_diversity
+    source: experiments/key_diversity
   phase_alpha_tracking:
     role: software_reproduction
-    source: experiments/anonymous_subround_multiround_attack_phase_alpha
+    source: experiments/channel_tracking
   gate_level_topology_8:
     role: EDA_reproduction
     cases: 8
     case06_final_query: Q135
     case06_provenance: reproduced_from_original_experiment
-    source: experiments/extra_exp1
+    source: experiments/gate_topologies
   dft_rtl1_latest:
     role: canonical_DFT
-    source: experiments/RTL1_DFT_RESTUDY
+    source: experiments/partial_scan_testability
     supersedes: experiments/RTL

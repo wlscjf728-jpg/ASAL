@@ -11,6 +11,8 @@ venv/
 # Experiment runtime output (source snapshots remain tracked)
 experiments/**/logs/*
 experiments/**/results/**
+experiments/**/reports/**
+experiments/**/docs/superpowers/**
 experiments/**/cases/**/csrc/
 experiments/**/cases/**/results/
 experiments/**/cases/**/simv*
@@ -22,6 +24,8 @@ experiments/**/hidden_key.evaluator.json
 # EDA-generated databases and reports
 *.ddc
 *.sdb
+*.svf
+command.log
 *.mr
 *.pvl
 *.syn

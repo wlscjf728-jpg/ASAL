@@ -1,0 +1,64 @@
+{
+  "revision": 2,
+  "design": "AES-internal balanced four-stage-cone fault universe",
+  "regions": [
+    "IARK_CONE",
+    "SB_CONE",
+    "SR_CONE",
+    "MC_CONE"
+  ],
+  "per_region_entries": 1000,
+  "selection": "sort by SHA256(seed:region:source_line) and retain first 1000",
+  "seed": 20260903,
+  "direct_ff_excluded_by_source": true,
+  "modes": {
+    "stuck": {
+      "IARK_CONE": {
+        "candidate_entries": 1954,
+        "selected_entries": 1000,
+        "selected_sites": 744
+      },
+      "SB_CONE": {
+        "candidate_entries": 58568,
+        "selected_entries": 1000,
+        "selected_sites": 991
+      },
+      "SR_CONE": {
+        "candidate_entries": 1076,
+        "selected_entries": 1000,
+        "selected_sites": 534
+      },
+      "MC_CONE": {
+        "candidate_entries": 5720,
+        "selected_entries": 1000,
+        "selected_sites": 906
+      },
+      "total_selected_entries": 4000,
+      "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_balanced4_stuck.list"
+    },
+    "transition": {
+      "IARK_CONE": {
+        "candidate_entries": 1954,
+        "selected_entries": 1000,
+        "selected_sites": 723
+      },
+      "SB_CONE": {
+        "candidate_entries": 58568,
+        "selected_entries": 1000,
+        "selected_sites": 992
+      },
+      "SR_CONE": {
+        "candidate_entries": 1076,
+        "selected_entries": 1000,
+        "selected_sites": 536
+      },
+      "MC_CONE": {
+        "candidate_entries": 5720,
+        "selected_entries": 1000,
+        "selected_sites": 909
+      },
+      "total_selected_entries": 4000,
+      "output": "/srscl/home/jcjeong/Research/Scan_Secure/experiments/partial_scan_testability/config/aes_internal_v2_balanced4_transition.list"
+    }
+  }
+}

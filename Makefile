@@ -2,17 +2,19 @@ SHELL := /usr/bin/env bash
 PYTHON ?= python3
 PIP ?= $(PYTHON) -m pip
 ROOT := $(CURDIR)
-ATTACK8 := $(ROOT)/experiments/anonymous_subround_multiround_attack_8_oracle
-DISCOVERY := $(ROOT)/experiments/anonymous_subround_multiround_attack_Leakage_Channel_Discovery
-KEYDIVERSITY := $(ROOT)/experiments/anonymous_subround_multiround_attack_key_diversity
-PHASEALPHA := $(ROOT)/experiments/anonymous_subround_multiround_attack_phase_alpha
-GATE := $(ROOT)/experiments/extra_exp1
-DFT := $(ROOT)/experiments/RTL1_DFT_RESTUDY
+ATTACK8 := $(ROOT)/experiments/temporal_key_recovery
+DISCOVERY := $(ROOT)/experiments/channel_discovery
+KEYDIVERSITY := $(ROOT)/experiments/key_diversity
+PHASEALPHA := $(ROOT)/experiments/channel_tracking
+GATE := $(ROOT)/experiments/gate_topologies
+DFT := $(ROOT)/experiments/partial_scan_testability
 
 .PHONY: help install smoke one-bit-96-dry-run one-bit-96 discovery-smoke key-diversity-smoke tracking gate-smoke dft-prepare dft-run audit git-status
 
 help:
-	@echo "make evidence-verify (review evidence without EDA tools)"
+	@echo "make check (software, bundled records, dry-runs and bounded startup)"
+	@echo "make test | smoke | evidence-verify | audit"
+	@echo "make one-bit-startup (bounded real solver startup, not full recovery)"
 	@echo "make one-bit-384-dry-run | one-bit-384 | one-bit-384-verify"
 	@echo "make install | smoke | one-bit-96-dry-run | one-bit-96"
 	@echo "make discovery-smoke | key-diversity-smoke | tracking | gate-smoke"
@@ -20,6 +22,23 @@ help:
 
 install:
 	$(PIP) install -r requirements.txt
+
+.PHONY: test one-bit-startup
+.PHONY: check
+check: test smoke evidence-verify audit one-bit-384-dry-run one-bit-96-dry-run discovery-smoke tracking gate-smoke gate-records-test gate-reference-test dft-prepare one-bit-startup
+
+.PHONY: gate-reference-test gate-records-test
+gate-reference-test:
+	$(PYTHON) -m pytest -q -rs experiments/gate_reference/tests
+
+gate-records-test:
+	$(PYTHON) -m pytest -q experiments/gate_topologies/tests
+
+test:
+	$(PYTHON) -m pytest -q tests
+
+one-bit-startup:
+	$(PYTHON) scripts/startup_check.py
 
 smoke:
 	$(PYTHON) scripts/reproduce.py smoke
@@ -67,4 +86,4 @@ evidence-verify:
 	$(PYTHON) scripts/paper384.py --verify
 
 git-status:
-	@git -C "$(ROOT)" status --short
+	@git status --short
